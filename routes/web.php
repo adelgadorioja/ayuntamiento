@@ -18,3 +18,28 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+// rutas denuncias ...................................................................
+Route::get('denuncia', 'DenunciasController@getIndex');
+
+Route::get('denuncia/mostrarDenucias/{id}', 'DenunciasController@mostrarDenuncias');
+
+Route::get('denuncia/crear', 'DenunciasController@crearDenuncias');
+
+Route::get('denuncia/editar/{id}', 'DenunciasController@editarDenuncias');
+
+
+// rutas chat ...................................................................
+Route::get('chat', 'ChatController@mostrarIndex');
+
+Route::get('chat/mostrarChat/{id}', 'ChatController@mostrarchat');
+
+Route::get('chat/creaChatroom', 'ChatController@creaChatroom');
+
+Route::get('chat/creaChatPrivado', 'ChatController@creaChatPrivado');
+
+
+// rutas noticias ...................................................................
+
+
