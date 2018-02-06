@@ -8,8 +8,7 @@ class DenunciasController extends Controller
 {
     public function getIndex()
     {
-         
-       return view('denuncia.index' /*, array('arrayDenuncias'=>Denuncias::all() )*/;
+        return view('denuncia.index');
 	}
 
     public function mostrarDenuncias($id) // id de la denuncia
