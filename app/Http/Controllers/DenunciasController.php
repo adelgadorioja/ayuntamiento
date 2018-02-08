@@ -8,22 +8,22 @@ class DenunciasController extends Controller
 {
     public function getIndex()
     {
-        return view('denuncia.index');
+        return view('layouts.denuncias');
 	}
 
     public function mostrarDenuncias($id) // id de la denuncia
     {
-        return view('denuncia.mostrar' /*, array('denuncia'=>Movie::findOrFail($id+1), 'id'=>$id)*/);
+        return view('denuncias.mostrar' /*, array('denuncia'=>Movie::findOrFail($id+1), 'id'=>$id)*/);
     }
 
     
     public function crearDenuncias()
     {
-        return view('denuncia.crear');
+        return view('denuncias.crear');
     }
 
     public function editarDenuncias($id)
     {
-        return view('denuncia.editar' /*, array(Movie::findOrFail($id+1),'id'=>$id)*/);
+        return view('denuncias.editar' /*, array(Movie::findOrFail($id+1),'id'=>$id)*/);
     }
 }

@@ -10,16 +10,16 @@
         <div class="collapse navbar-collapse" id="navegacion">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="inicio.php">inicio</a>
+                    <a class="nav-link" href="{{url('home')}}">inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="debates.php">debates</a>
+                    <a class="nav-link" href="{{url('debates')}}">debates</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="chats.php">chats</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="denuncias.php">denuncias</a>
+                    <a class="nav-link" href="{{url('denuncias')}}">denuncias</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="intercambios.php">intercambios</a>

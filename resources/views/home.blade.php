@@ -1,23 +1,53 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+ <div class="container">
+            <div id="inicioSuperior" class="row">
+                <div class="col-md-8">
+                    <div id="imagenPortada" class="caja apartadoInicio">
 
-                <div class="panel-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="noticias" class="caja apartadoInicio">
+                        <h5 class="tituloApartado">Últimas noticias</h5>
+                        <h6>Título noticia 1</h6>
+                        <p>Lorem ipsum sit amtet lorem ipsum sit amtet Lorem ipsum sit amtet lorem ipsum...</p>
+                        <h6>Título noticia 2</h6>
+                        <p>Lorem ipsum sit amtet lorem ipsum sit...</p>
+                        <h6>Título noticia 3</h6>
+                        <p>Lorem ipsum sit amtet lorem ipsum sit amtet Lorem ipsum sit ...</p>
+                        <h6>Título noticia 4</h6>
+                        <p>Lorem ipsum sit amtet lorem ipsum sit amtet Lorem ipsum sit ...</p>
+                    </div>
+                </div>
+            </div>
+            <div id="inicioInferior" class="row">
+                <div class="col-md-4">
+                    <div class="apartadoInicio caja">
+                        <h5 class="tituloApartado">Debates</h5>
+                        <div id="imagenDebates" class="imagenApartado"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum enim vel purus suscipit,
+                            vitae convallis ex placerat. Quisque commodo mollis consequat.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="apartadoInicio caja">
+                        <h5 class="tituloApartado">Denuncias</h5>
+                        <div id="imagenDenuncias" class="imagenApartado"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum enim vel purus suscipit,
+                            vitae convallis ex placerat. Quisque commodo mollis consequat.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="apartadoInicio caja">
+                        <h5 class="tituloApartado">Intercambios</h5>
+                        <div id="imagenIntercambios" class="imagenApartado"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum enim vel purus suscipit,
+                            vitae convallis ex placerat. Quisque commodo mollis consequat.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-@endsection
+
+@stop

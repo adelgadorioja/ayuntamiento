@@ -11,23 +11,21 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@getIndex');
+
 
 
 // rutas denuncias ...................................................................
-Route::get('denuncia', 'DenunciasController@getIndex');
+Route::get('/denuncias', 'DenunciasController@getIndex');
 
-Route::get('denuncia/mostrarDenucias/{id}', 'DenunciasController@mostrarDenuncias');
+Route::get('denuncias/mostrarDenucias/{id}', 'DenunciasController@mostrarDenuncias');
 
-Route::get('denuncia/crear', 'DenunciasController@crearDenuncias');
+Route::get('denuncias/crear', 'DenunciasController@crearDenuncias');
 
-Route::get('denuncia/editar/{id}', 'DenunciasController@editarDenuncias');
+Route::get('denuncias/editar/{id}', 'DenunciasController@editarDenuncias');
 
 
 // rutas chat ...................................................................

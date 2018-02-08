@@ -8,17 +8,27 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Ayuntamiento Cornellá de Llobregat</title>
-    <!-- Styles -->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
-        crossorigin="anonymous">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <title>Ayuntamiento Cornellá  </title>
+    <!-- Styles -->   
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">    
     <link href="{{ asset('css/reset.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/generic.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/logReg.css') }}" rel="stylesheet">  
+    <link href="{{ asset('css/generic.css') }}" rel="stylesheet"> 
+    <script type="text/javascript" src="{{ asset('js/jquery-3.2.1.js')}}" ></script>
+    <script type="text/javascript" src="{{ asset('js/script.js')}}" ></script>
 
-    
 </head>
 <body> 
+
+<div>
 @include('partials.navbar')
+</div>
+
+<div>
+@yield('content')
+</div>
+
+</body>
+</html>
+
+
+
