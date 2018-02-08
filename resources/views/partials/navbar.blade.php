@@ -7,22 +7,36 @@
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navegacion">
             <ul class="navbar-nav ml-auto">
+                @if (Route::has('login'))               
+                @auth
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url('home')}}">Inicio</a>
+                    </li>
+                @else
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('login') }}">Iniciar sesion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('register') }}">Registrate</a>
+                    </li>
+                @endauth
+           
+                @endif
+                
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('home')}}">inicio</a>
+                    <a class="nav-link" href="{{url('noticias/crear')}}">Noticias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('debates')}}">debates</a>
+                    <a class="nav-link" href="{{url('chat/index')}}">Chats</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="chats.php">chats</a>
+                    <a class="nav-link" href="{{url('denuncias/crear')}}">Denuncias</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('denuncias')}}">denuncias</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="intercambios.php">intercambios</a>
+                    <a class="nav-link" href="intercambios.php">Intercambios</a>
                 </li>
                 <!--<?php
                     /*include 'funciones.php';
@@ -42,6 +56,8 @@
                 </li>           
             </ul>
         </div>
+
+        
     </div>
 </nav>
 

@@ -9,22 +9,17 @@ class NoticiasController extends Controller
    public function getIndex()
     {
          
-       return view('noticia.index' /*, array('arrayDenuncias'=>Denuncias::all() )*/;
+       return view('noticias.index' /*, array('arrayDenuncias'=>Denuncias::all() )*/;
 	}
-
-    public function getShow($id) // id de la denuncia
-    {
-        return view('noticia.show' /*, array('denuncia'=>Movie::findOrFail($id+1), 'id'=>$id)*/);
-    }
 
     
     public function getCreate()
     {
-        return view('noticia.create');
+        return view('noticias.crear');
     }
 
     public function getEdit($id)
     {
-        return view('noticia.edit' /*, array(Movie::findOrFail($id+1),'id'=>$id)*/);
+        return view('noticia.editar' /*, array(Movie::findOrFail($id+1),'id'=>$id)*/);
     }
 }

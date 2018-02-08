@@ -19,7 +19,7 @@ class ChatController extends Controller
     
     public function creaChatroom() //creac
     {
-        return view('chat.creaChatroom');
+        return view('chat.crear');
     }
 
      public function creaChatPrivado() //creac
