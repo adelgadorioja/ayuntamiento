@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(../img/background.jpg);
+    background-image: url(../imagenes/background.jpg);
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -82,7 +82,7 @@ h5, h6 {
 
 #imagenPortada {
     border-right: 0.3em solid #72a8ff;
-    background-image: url(../img/people.jpg);
+    background-image: url(../imagenes/people.jpg);
     -webkit-background-size: cover;
  	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -109,15 +109,15 @@ h5, h6 {
 }
 
 #imagenDebates {
-    background-image: url(../img/debate.jpg);
+    background-image: url(../imagenes/debate.jpg);
 }
 
 #imagenDenuncias {
-    background-image: url(../img/denuncias.jpg);
+    background-image: url(../imagenes/denuncias.jpg);
 }
 
 #imagenIntercambios {
-    background-image: url(../img/intercambio.jpg);
+    background-image: url(../imagenes/intercambio.jpg);
 }
 
 
