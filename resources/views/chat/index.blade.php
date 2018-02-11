@@ -23,6 +23,7 @@
  
 @section('content')
 <div class="container">
+{{ Breadcrumbs::render('chats') }}
   <div class="container">
     <div id="chats" class="row caja">
         <div id="chatsDisponibles" class="col-md-3 nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">

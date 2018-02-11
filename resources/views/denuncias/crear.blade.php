@@ -1,5 +1,6 @@
 @extends('layouts.master') @section('content')
 
+
 <script>
     $(document).ready(function () {
         $('input[value=Enviar]').click(function () {
@@ -22,6 +23,8 @@
 </script>
 
 <div class="container">
+
+{{ Breadcrumbs::render('denuncias') }}
 
     <div id="denuncias" class="caja">
         <h5>Realizar una denuncia</h5>

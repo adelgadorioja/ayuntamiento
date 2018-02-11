@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
+Route::name('inicio')->get('/', function () {
     return view('home');
 });
 
@@ -21,23 +21,23 @@ Route::get('/home', 'HomeController@getIndex');
 
 
 // rutas denuncias ...................................................................
-Route::match(array('GET','POST'),'/denuncias/index', 'DenunciasController@mostrarDenuncias');
+Route::name('mostrarDenuncias')->match(array('GET','POST'),'/denuncias/index', 'DenunciasController@mostrarDenuncias');
 
-Route::match(array('GET','POST'),'denuncias/denunciasUser/{id}', 'DenunciasController@mostrarDenunciasPorUsuario');
+Route::name('mostrarDenunciasUsuario')->match(array('GET','POST'),'denuncias/denunciasUser/{id}', 'DenunciasController@mostrarDenunciasPorUsuario');
 
-Route::match(array('GET','POST'),'denuncias/crear', 'DenunciasController@crearDenuncias');
+Route::name('crearDenuncia')->match(array('GET','POST'),'denuncias/crear', 'DenunciasController@crearDenuncias');
 
-Route::match(array('GET','POST'),'denuncias/editar/{id}', 'DenunciasController@editarDenuncias');
+Route::name('editarDenuncia')->match(array('GET','POST'),'denuncias/editar/{id}', 'DenunciasController@editarDenuncias');
 
 
 // rutas chat ...................................................................
-Route::get('chat/index', 'ChatController@mostrarIndex');
+Route::name('mostrarChats')->get('chat/index', 'ChatController@mostrarIndex');
 
-Route::get('chat/mostrarChat/{id}', 'ChatController@mostrarchat');
+Route::name('mostrarChat')->get('chat/mostrarChat/{id}', 'ChatController@mostrarchat');
 
-Route::get('chat/crear', 'ChatController@creaChatroom');
+Route::name('crearChat')->get('chat/crear', 'ChatController@creaChatroom');
 
-Route::get('chat/creaChatPrivado', 'ChatController@creaChatPrivado');
+Route::name('creaChatPrivado')->get('chat/creaChatPrivado', 'ChatController@creaChatPrivado');
 
 
 // rutas noticias ...................................................................
