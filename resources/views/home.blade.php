@@ -43,6 +43,11 @@
                     </div>
                 </div>
             </div>
+
+            <div id="banner" hidden>
+                <p>Banner 180px</p>
+            </div>
+
             <div id="inicioInferior" class="row">
                 <div class="col-md-4">
                     <div class="apartadoInicio caja">

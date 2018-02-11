@@ -332,3 +332,18 @@ h5, h6 {
     background: none;
     border: none;
 }
+
+#banner {
+    padding: 2.9em;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    margin-top: 1em;
+    background-image: url(../imagenes/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#banner p {
+    font-size: 3em;
+}

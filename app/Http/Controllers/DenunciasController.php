@@ -30,17 +30,15 @@ class DenunciasController extends Controller
 
     public function store(Request $request)
     {
-        $c = new Denuncias;
-        if ($request->has('titulo')){    //...  
-            $c->titulo = $request->input('titulo'); 
-            $c->descripcion = $request->input('descripcion'); 
-            $c->imagen = $request->input('imagen');   
-            $c->localizacion = $request->textarea('localizacion');    
-            $c->atendidoPor = $request->input('atendidoPor'); 
-            $c->fecha = $request->input('fecha');
-            $c->user_id = $request->input('id_user');            
-            $c->save();   
-            {{}};        
-        }       
+        //Falta guardar el archivo
+        $denuncia = new Denuncia;
+        $denuncia->titulo = $request->input('titulo'); 
+        $denuncia->descripcion = $request->input('descripcion'); 
+        $denuncia->imagen = $request->input('imagen');   
+        $denuncia->localizacion = $request->input('localizacion');    
+        $denuncia->atendidoPor = $request->input('atendidoPor'); 
+        $denuncia->fecha = $request->input('fecha');
+        $denuncia->user_id = $request->input('id_user');            
+        $denuncia->save();
     }
 }

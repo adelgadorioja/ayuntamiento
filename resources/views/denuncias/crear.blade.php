@@ -3,6 +3,9 @@
 
 <script>
     $(document).ready(function () {
+        $('#enviarFormulario').click(function() {
+            $('#formularioDenuncia').submit();
+        });
         $('input[value=Enviar]').click(function () {
             $('#formularioDenuncia')[0].reset();
             $('#formularioDenuncia').before(
@@ -28,8 +31,8 @@
 
     <div id="denuncias" class="caja">
         <h5>Realizar una denuncia</h5>
-
-        <form id="formularioDenuncia" method="POST" action="{{url('denuncias/crear')}}">
+       
+        {{ Form::open(array('url' => 'denuncias/crear', 'id' => 'formularioDenuncia')) }}
             {{ csrf_field() }}
             <input type="hidden" name="id_user" value="{{Auth::id()}}">
             <input type="hidden" name="atendidoPor" value="0">
@@ -38,7 +41,7 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label>Título</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" name="titulo">
+                        <input type="text" class="form-control" name="titulo">
                     </div>
 
                     <div class="form-group">
@@ -53,7 +56,7 @@
                             <label>Adjuntar archivo</label>
                             <div class="form-group">
                                 <div class="form-control custom-file">
-                                    <input type="file" class="custom-file-input">
+                                    <input name="imagen" type="file" class="custom-file-input">
                                     <label id="archivo" class="custom-file-label">Selecciona el archivo</label>
                                 </div>
                             </div>
@@ -68,9 +71,9 @@
 
             <div class="form-group">
                 <label>Localización</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" name="localización">
+                <input type="text" class="form-control" id="exampleFormControlInput1" name="localizacion">
             </div>
-            <input class="btn btn-100" type="button" value="Enviar">
-        </form>
+            <input class="btn btn-100" id="enviarFormulario" type="button" value="Enviar">
+        {{ Form::close() }}
     </div>
     @stop

@@ -25,10 +25,10 @@ Route::name('mostrarDenuncias')->match(array('GET','POST'),'/denuncias/index', '
 
 Route::name('mostrarDenunciasUsuario')->match(array('GET','POST'),'denuncias/denunciasUser/{id}', 'DenunciasController@mostrarDenunciasPorUsuario');
 
-Route::name('crearDenuncia')->match(array('GET','POST'),'denuncias/crear', 'DenunciasController@crearDenuncias');
+Route::name('crearDenuncia')->match(array('GET'),'denuncias/crear', 'DenunciasController@crearDenuncias');
+Route::name('crearDenuncia')->match(array('POST'),'denuncias/crear', 'DenunciasController@store');
 
 Route::name('editarDenuncia')->match(array('GET','POST'),'denuncias/editar/{id}', 'DenunciasController@editarDenuncias');
-
 
 // rutas chat ...................................................................
 Route::name('mostrarChats')->get('chat/index', 'ChatController@mostrarIndex');
