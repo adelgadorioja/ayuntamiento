@@ -31,6 +31,13 @@ class DenunciasController extends Controller
         return view('denuncias.editar', array('denuncia' => Denuncia::where('id_denuncia','=',$id)->first()));
     }
 
+    public function responderDenuncias(Request $request)
+    {
+        $denuncia = Denuncia::where('id_denuncia','=', $request->input('idDenuncia'))->first();
+        $denuncia->respuesta = $request->input('respuesta');
+        $denuncia->update();
+    }
+
     public function store(Request $request)
     {
         //Falta guardar el archivo
@@ -45,5 +52,6 @@ class DenunciasController extends Controller
         $denuncia->user_id = $request->input('id_user');            
         $denuncia->save();
         Storage::disk('local')->put($denuncia->imagen,  \File::get($archivo));
+        return view('denuncias.crear');
     }
 }

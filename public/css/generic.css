@@ -355,3 +355,16 @@ th {
 p span {
     font-weight: bold;
 }
+
+#denuncia {
+    border-top: 0.3em solid #72a8ff !important;
+    margin-bottom: 1em;
+}
+
+#denuncia img {
+    margin-bottom: 1em;
+}
+
+.ventanaChat p {
+    margin-bottom: 0;
+}

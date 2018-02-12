@@ -26,6 +26,8 @@ Route::name('mostrarDenunciasUsuario')->match(array('GET'),'denuncias/denunciasU
 Route::name('crearDenuncia')->match(array('GET'),'denuncias/crear', 'DenunciasController@crearDenuncias');
 Route::name('crearDenuncia')->match(array('POST'),'denuncias/crear', 'DenunciasController@store');
 
+Route::name('responderDenuncia')->match(array('PUT'),'denuncias/responder', 'DenunciasController@responderDenuncias');
+
 Route::name('editarDenuncia')->match(array('GET','POST'),'denuncias/editar/{id}', 'DenunciasController@editarDenuncias');
 
 // rutas chat ...................................................................

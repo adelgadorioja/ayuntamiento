@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">	
     <div id="denuncias" class="caja"> 
-    	<h5>Listado de denuncias</h5>
+    	<h5>Listado de denuncias realizadas</h5>
 		<hr>       
          <table class="table table-bordered">
 		    <thead>

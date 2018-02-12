@@ -19,7 +19,7 @@ class CreateTablasTable extends Migration
             $table->string('descripcion');
             $table->string('imagen');
             $table->string('localizacion');
-            $table->integer('atendidoPor');  // si es null aun no ha sido atentido, si esta atentida    contendrá el id del administrador que la ha atendido     
+            $table->integer('atendidoPor')->nullable();  // si es null aun no ha sido atentido, si esta atentida    contendrá el id del administrador que la ha atendido     
             $table->date('fecha');
             $table->integer('user_id')->unsigned();  // id usuario
             $table->foreign('user_id')->references('id')->on('users');  

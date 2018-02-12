@@ -14,9 +14,8 @@ class AddVotesToUserTable extends Migration
     public function up()
     {
         Schema::table('Denuncias', function (Blueprint $table) {
-            $table->string('respuesta');
-        });
-       
+            $table->string('respuesta')->nullable();
+        });  
     }
 
     /**

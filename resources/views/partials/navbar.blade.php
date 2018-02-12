@@ -21,8 +21,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{url('chat/index')}}">Chats</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{url('denuncias/crear')}}">Denuncias</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Denuncias
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    @if(Auth::user()->tipoUsuario == 0)
+                        <a class="dropdown-item" href="{{ url('denuncias/crear') }}">Crear denuncia</a>
+                        <a class="dropdown-item" href="{{ url('denuncias/denunciasUser') }}">Mostrar denuncias realizadas</a>
+                    @else
+                        <a class="dropdown-item" href="{{ url('denuncias/index') }}">Contestar denuncias</a>
+                    @endif
+                    </div>
                 </li>
                 <li class="nav-item">
                     <form action="{{ url('/logout') }}" method="POST" style="display:inline">
