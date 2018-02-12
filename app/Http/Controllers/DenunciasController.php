@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Denuncia;
 use Illuminate\Http\Request;
+use Storage;
 
 class DenunciasController extends Controller
 {
@@ -34,11 +35,13 @@ class DenunciasController extends Controller
         $denuncia = new Denuncia;
         $denuncia->titulo = $request->input('titulo'); 
         $denuncia->descripcion = $request->input('descripcion'); 
-        $denuncia->imagen = $request->input('imagen');   
+        $archivo = $request->file('imagen');
+        $denuncia->imagen = $archivo->getClientOriginalName(); 
         $denuncia->localizacion = $request->input('localizacion');    
         $denuncia->atendidoPor = $request->input('atendidoPor'); 
         $denuncia->fecha = $request->input('fecha');
         $denuncia->user_id = $request->input('id_user');            
         $denuncia->save();
+        Storage::disk('local')->put($denuncia->imagen,  \File::get($archivo));
     }
 }
