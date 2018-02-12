@@ -16,7 +16,7 @@
 		    <tbody>
 		    @foreach( $arrayDenuncias as $key => $denuncia )		  
 		      <tr>
-		        <td> <a href="{{ url('denuncias/editar/'.$d->id_denuncia) }}">{{$denuncia->id_denuncia}}</a></td>
+		        <td> <a href="{{ url('denuncias/editar/'.$denuncia->id_denuncia) }}">{{$denuncia->id_denuncia}}</a></td>
 		        <td>{{$denuncia->titulo}}</td>
 		        <td>{{$denuncia->descripcion}}</td>
 		      </tr>
