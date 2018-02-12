@@ -31,8 +31,7 @@
 
     <div id="denuncias" class="caja">
         <h5>Realizar una denuncia</h5>
-       
-        {{ Form::open(array('url' => 'denuncias/crear', 'id' => 'formularioDenuncia')) }}
+        {{ Form::open(array('url' => 'denuncias/crear', 'id' => 'formularioDenuncia', 'enctype' => 'multipart/form-data')) }}
             {{ csrf_field() }}
             <input type="hidden" name="id_user" value="{{Auth::id()}}">
             <input type="hidden" name="atendidoPor" value="0">
