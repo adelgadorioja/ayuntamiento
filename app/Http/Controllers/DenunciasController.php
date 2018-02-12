@@ -26,7 +26,7 @@ class DenunciasController extends Controller
 
     public function editarDenuncias($id)
     {
-        return view('denuncias.editar' /*, array(Movie::findOrFail($id+1),'id'=>$id)*/);
+        return view('denuncias.editar', array('denuncia' => Denuncia::where('id_denuncia','=',$id)->first()));
     }
 
     public function store(Request $request)

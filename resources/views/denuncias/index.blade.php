@@ -3,14 +3,14 @@
 @section('content')
 <div class="container">	
     <div id="denuncias" class="caja"> 
-    	<h2 style="text-align:center">Listado de denuncias</h2>
+    	<h5>Listado de denuncias</h5>
 		<hr>       
          <table class="table table-bordered">
 		    <thead>
 		      <tr>
-		        <th><h4>id</h4></th>
-		        <th><h4>Título</h4></th>
-		        <th><h4>Descripción</h4></th>
+		        <th>id</th>
+		        <th>Título</th>
+		        <th>Descripción</th>
 		      </tr>
 		    </thead>
 		    <tbody>

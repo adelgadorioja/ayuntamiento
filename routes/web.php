@@ -20,6 +20,7 @@ Route::get('/home', 'HomeController@getIndex');
 
 
 
+
 // rutas denuncias ...................................................................
 Route::name('mostrarDenuncias')->match(array('GET','POST'),'/denuncias/index', 'DenunciasController@mostrarDenuncias');
 

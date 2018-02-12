@@ -347,3 +347,11 @@ h5, h6 {
 #banner p {
     font-size: 3em;
 }
+
+th {
+    font-weight: bold;
+}
+
+p span {
+    font-weight: bold;
+}
