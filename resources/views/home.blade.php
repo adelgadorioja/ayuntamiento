@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <div id="banner" hidden>
+            <div id="banner" >
                 <p>Banner 180px</p>
             </div>
 
