@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="container">	
+{{ Breadcrumbs::render('mostrarDenunciasUsuario') }}
     <div id="denuncias" class="caja"> 
     	<h5>Listado de denuncias realizadas</h5>
 		<hr>       

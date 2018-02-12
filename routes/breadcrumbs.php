@@ -17,10 +17,22 @@ Breadcrumbs::register('chats', function ($breadcrumbs) {
     $breadcrumbs->push('Chats', route('mostrarChats'));
 });
 
-// Inicio / Denuncias
+// Inicio / Crear denuncia
 Breadcrumbs::register('denuncias', function ($breadcrumbs) {
     $breadcrumbs->parent('inicio');
-    $breadcrumbs->push('Denuncias', route('crearDenuncia'));
+    $breadcrumbs->push('Crear denuncia', route('crearDenuncia'));
+});
+
+// Inicio / Mostrar denuncias realizadas
+Breadcrumbs::register('mostrarDenunciasUsuario', function ($breadcrumbs) {
+    $breadcrumbs->parent('inicio');
+    $breadcrumbs->push('Denuncias realizadas', route('mostrarDenunciasUsuario'));
+});
+
+// Inicio / Mostrar denuncias
+Breadcrumbs::register('mostrarDenuncias', function ($breadcrumbs) {
+    $breadcrumbs->parent('inicio');
+    $breadcrumbs->push('Mostrar denuncias', route('mostrarDenuncias'));
 });
 
 ?>
