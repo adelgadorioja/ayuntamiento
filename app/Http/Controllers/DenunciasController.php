@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\Auth;
 use App\Denuncia;
 use Illuminate\Http\Request;
 use Storage;
@@ -13,9 +14,10 @@ class DenunciasController extends Controller
         return view('denuncias.index', array('arrayDenuncias'=> Denuncia::all() ));
 	}
 
-    public function mostrarDenunciasPorUsuario($id) // id de la denuncia
+    public function mostrarDenunciasPorUsuario() // id de la denuncia
     {
-        return view('denuncias.denunciasUser' /*, array('denuncia'=>Movie::findOrFail($id+1), 'id'=>$id)*/);
+         $id = Auth::user()->id;        
+    return view('denuncias.denunciasUser', array('arrayDenuncias'=> Denuncia::where('user_id', $id)->get() ));
     }
 
     

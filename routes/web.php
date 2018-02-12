@@ -21,7 +21,7 @@ Route::get('/home', 'HomeController@getIndex');
 // rutas denuncias ...................................................................
 Route::name('mostrarDenuncias')->match(array('GET','POST'),'/denuncias/index', 'DenunciasController@mostrarDenuncias');
 
-Route::name('mostrarDenunciasUsuario')->match(array('GET','POST'),'denuncias/denunciasUser/{id}', 'DenunciasController@mostrarDenunciasPorUsuario');
+Route::name('mostrarDenunciasUsuario')->match(array('GET'),'denuncias/denunciasUser', 'DenunciasController@mostrarDenunciasPorUsuario');
 
 Route::name('crearDenuncia')->match(array('GET'),'denuncias/crear', 'DenunciasController@crearDenuncias');
 Route::name('crearDenuncia')->match(array('POST'),'denuncias/crear', 'DenunciasController@store');
