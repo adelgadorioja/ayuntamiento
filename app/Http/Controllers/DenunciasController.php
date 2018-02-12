@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\Auth;
 use App\Denuncia;
 use Illuminate\Http\Request;
 use Storage;
