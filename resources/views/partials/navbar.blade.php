@@ -13,20 +13,35 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{url('home')}}">Inicio</a>
                 </li>
-
-                @if (Route::has('login')) @auth
-                <li class="nav-item">
-                    <a class="nav-link" href="{{url('noticias/crear')}}">Noticias</a>
+                @if (Route::has('login')) @auth                   
+                <li class="nav-item dropdown">
+                     @if(Auth::user()->tipoUsuario == 1) 
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Noticias
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="{{ url('noticias/crear') }}">Crear Noticia</a>
+                    </div>
+                    @endif
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{url('chat/index')}}">Chats</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Chats
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    @if(Auth::user()->tipoUsuario == 1) 
+                        <a class="dropdown-item" href="{{ url('chat/crear') }}">Crear ChatRoom</a>    
+                    @else
+                        <a class="dropdown-item" href="{{ url('chat/index') }}">Mostrar chat</a>
+                    @endif
+                    </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Denuncias
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    @if(Auth::user()->tipoUsuario == 0)
+                    @if(Auth::user()->tipoUsuario == 0) 
                         <a class="dropdown-item" href="{{ url('denuncias/crear') }}">Crear denuncia</a>
                         <a class="dropdown-item" href="{{ url('denuncias/denunciasUser') }}">Mostrar denuncias realizadas</a>
                     @else
@@ -43,6 +58,9 @@
                     </form>
                 </li>
                 @else
+                 <li class="nav-item">
+                    <a class="nav-link" href="{{url('noticias/index')}}">Noticias</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('login') }}">Iniciar sesion</a>
                 </li>

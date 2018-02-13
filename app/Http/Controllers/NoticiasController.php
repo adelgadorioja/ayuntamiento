@@ -6,20 +6,16 @@ use Illuminate\Http\Request;
 
 class NoticiasController extends Controller
 {
-   public function getIndex()
+   public function mostrarNoticias()
     {
          
-       return view('noticias.index' /*, array('arrayDenuncias'=>Denuncias::all() )*/;
+       return view('noticias.index' /*, array('arrayNoticias'=>Noticias::all() */);
 	}
 
-    
-    public function getCreate()
+    public function crearNoticias()
     {
         return view('noticias.crear');
     }
 
-    public function getEdit($id)
-    {
-        return view('noticia.editar' /*, array(Movie::findOrFail($id+1),'id'=>$id)*/);
-    }
+    
 }

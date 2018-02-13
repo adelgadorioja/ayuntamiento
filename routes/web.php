@@ -19,6 +19,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@getIndex');
 
 // rutas denuncias ...................................................................
+
 Route::name('mostrarDenuncias')->match(array('GET','POST'),'/denuncias/index', 'DenunciasController@mostrarDenuncias');
 
 Route::name('mostrarDenunciasUsuario')->match(array('GET'),'denuncias/denunciasUser', 'DenunciasController@mostrarDenunciasPorUsuario');
@@ -31,6 +32,7 @@ Route::name('responderDenuncia')->match(array('PUT'),'denuncias/responder', 'Den
 Route::name('editarDenuncia')->match(array('GET','POST'),'denuncias/editar/{id}', 'DenunciasController@editarDenuncias');
 
 // rutas chat ...................................................................
+
 Route::name('mostrarChats')->get('chat/index', 'ChatController@mostrarIndex');
 
 Route::name('mostrarChat')->get('chat/mostrarChat/{id}', 'ChatController@mostrarchat');
@@ -42,4 +44,8 @@ Route::name('creaChatPrivado')->get('chat/creaChatPrivado', 'ChatController@crea
 
 // rutas noticias ...................................................................
 
+Route::name('mostrarNoticias')->match(array('GET','POST'),'/noticias/index', 'NoticiasController@mostrarNoticias');
 
+Route::name('crearNoticias')->match(array('GET'),'/noticias/crear', 'NoticiasController@crearNoticias');
+
+Route::name('crearNoticias')->match(array('GET'),'/noticias/crear', 'NoticiasController@crearNoticias');
