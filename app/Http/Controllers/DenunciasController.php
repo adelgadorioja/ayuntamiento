@@ -10,7 +10,6 @@ class DenunciasController extends Controller
 {
     public function mostrarDenuncias()
     {
-        
         return view('denuncias.index', array('arrayDenuncias'=> Denuncia::all() ));
 	}
 
