@@ -16,8 +16,8 @@ class DenunciasController extends Controller
 
     public function mostrarDenunciasPorUsuario() // id de la denuncia
     {
-         $id = Auth::user()->id;        
-    return view('denuncias.denunciasUser', array('arrayDenuncias'=> Denuncia::where('user_id', $id)->get() ));
+        $id = Auth::user()->id;        
+        return view('denuncias.denunciasUser', array('arrayDenuncias'=> Denuncia::where('user_id', $id)->get() ));
     }
 
     
