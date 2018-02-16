@@ -16,6 +16,10 @@ class AddVotesToUserTable extends Migration
         Schema::table('Denuncias', function (Blueprint $table) {
             $table->string('respuesta')->nullable();
         });  
+
+        Schema::table('users', function (Blueprint $table) {
+            $table->integer('tipoUsuario')->default(0);
+        }); 
     }
 
     /**
@@ -27,6 +31,10 @@ class AddVotesToUserTable extends Migration
     {
         Schema::table('Denuncias', function (Blueprint $table) {
             $table->dropColumn('respuesta');
+        });
+
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('tipoUsuario');
         });
     }
 }
