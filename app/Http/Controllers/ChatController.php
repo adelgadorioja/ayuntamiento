@@ -28,5 +28,15 @@ class ChatController extends Controller
         return view('chat.creaChatPrivado');
     }
 
+    public function enviar(Request $request)
+    {
+        $mensaje = new Mensaje;
+        $mensaje->contenido = $request->input('mensaje');
+        $mensaje->fecha = $request->input('fecha');
+        $mensaje->user_id = $request->input('id_user');
+        $mensaje->id_chat = $request->input('id_chat');
+        $mensaje->save();
+    }
+
     
 }

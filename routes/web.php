@@ -49,3 +49,11 @@ Route::name('mostrarNoticias')->match(array('GET','POST'),'noticias/index', 'Not
 Route::name('crearNoticias')->match(array('GET'),'noticias/crear', 'NoticiasController@crearNoticias');
 
 Route::name('crearNoticias')->match(array('POST'),'noticias/crear', 'NoticiasController@store');
+
+
+
+
+
+// API
+
+Route::name('enviarMensaje')->match(array('POST'),'chat/enviar', 'ChatController@enviar');
