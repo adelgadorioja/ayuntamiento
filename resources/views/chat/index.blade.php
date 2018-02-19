@@ -33,7 +33,7 @@
 							<form>
 								{{ csrf_field() }}
 								<input type="hidden" name="fecha" value="{{date('Y-m-d H:i:s')}}">
-								<input type="hidden" name="user_name" value="{{Auth::user()}}">
+								<input type="hidden" name="user_id" value="{{Auth::id()}}">
 								<input type="hidden" name="id_chat" value="{{$chat->id_chat}}">
 								<div class="row">
 									<div class="input-group mb-3">
