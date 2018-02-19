@@ -35,4 +35,10 @@ Breadcrumbs::register('mostrarDenuncias', function ($breadcrumbs) {
     $breadcrumbs->push('Mostrar denuncias', route('mostrarDenuncias'));
 });
 
+// Inicio / Mostrar noticias
+Breadcrumbs::register('mostrarNoticias', function ($breadcrumbs) {
+    $breadcrumbs->parent('inicio');
+    $breadcrumbs->push('Mostrar noticias', route('mostrarNoticias'));
+});
+
 ?>

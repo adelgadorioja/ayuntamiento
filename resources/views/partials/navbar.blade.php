@@ -13,7 +13,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{url('home')}}">Inicio</a>
                 </li>
-                @if (Route::has('login')) @auth                   
+                @if (Route::has('login')) @auth                                 
                 <li class="nav-item dropdown">
                      @if(Auth::user()->tipoUsuario == 1) 
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -22,6 +22,10 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="{{ url('noticias/crear') }}">Crear Noticia</a>
                     </div>
+                    @else
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url('noticias/index')}}">Noticias</a>
+                    </li>  
                     @endif
                 </li>
                 <li class="nav-item dropdown">
@@ -58,7 +62,7 @@
                     </form>
                 </li>
                 @else
-                 <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="{{url('noticias/index')}}">Noticias</a>
                 </li>
                 <li class="nav-item">
