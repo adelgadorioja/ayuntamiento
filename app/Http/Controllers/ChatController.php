@@ -33,7 +33,7 @@ class ChatController extends Controller
     {
         $mensaje = new Mensaje;
         $mensaje->contenido = $request->input('mensaje');
-        $mensaje->user_id = $request->input('id_user');
+        $mensaje->user_name = $request->input('user_name');
         $mensaje->id_chat = $request->input('id_chat');
         $mensaje->save();
     }

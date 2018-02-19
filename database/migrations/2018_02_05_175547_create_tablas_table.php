@@ -48,13 +48,11 @@ class CreateTablasTable extends Migration
         Schema::create('msjChat', function (Blueprint $table) {
             $table->increments('id_msj');
             $table->string('contenido');
-
-            $table->integer('user_id')->unsigned(); // id usuario    
+            $table->string('name_user')->unsigned()->unique(); // nombre usuario    
             $table->integer('id_chat')->unsigned();    // id del chat   
-
-            $table->foreign('user_id')->references('id')->on('users');  
-            $table->foreign('id_chat')->references('id_chat')->on('chatRooms');  
             $table->timestamps();
+            $table->foreign('name_user')->references('name')->on('users');  
+            $table->foreign('id_chat')->references('id_chat')->on('chatRooms');
         });
 
         Schema::create('chatPrivados', function (Blueprint $table) {            
