@@ -57,3 +57,5 @@ Route::name('crearNoticias')->match(array('POST'),'noticias/crear', 'NoticiasCon
 // API
 
 Route::name('enviarMensaje')->match(array('POST'),'chat/enviar', 'ChatController@enviar');
+
+Route::name('primeraConexion')->match(array('GET'),'chat/primera_conexion', 'ChatController@primeraConexion');

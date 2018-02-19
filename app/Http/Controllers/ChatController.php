@@ -38,5 +38,12 @@ class ChatController extends Controller
         $mensaje->save();
     }
 
+    public function primeraConexion() {
+        $mensajes = Mensaje::all();
+        return response()->json(
+            $mensajes
+        );
+    }
+
     
 }
