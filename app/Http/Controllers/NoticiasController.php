@@ -10,8 +10,8 @@ class NoticiasController extends Controller
 {
    public function mostrarNoticias()
     {
-         
-       return view('noticias.index', array('arrayNoticias'=> Noticia::all() ));
+       $array = Noticia::orderBy('fecha', 'DESC')->get();
+       return view('noticias.index', array('arrayNoticias'=> $array ));
 	}
 
     public function crearNoticias()

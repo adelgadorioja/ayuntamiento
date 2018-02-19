@@ -44,7 +44,9 @@ Route::name('creaChatPrivado')->get('chat/creaChatPrivado', 'ChatController@crea
 
 // rutas noticias ...................................................................
 
-Route::name('mostrarNoticias')->match(array('GET','POST'),'noticias/index', 'NoticiasController@mostrarNoticias');
+Route::name('mostrarNoticias')->match(array('POST'),'noticias/index', 'NoticiasController@mostrarNoticias');
+
+Route::name('mostrarNoticias')->match(array('GET'),'noticias/index', 'NoticiasController@mostrarNoticias');
 
 Route::name('crearNoticias')->match(array('GET'),'noticias/crear', 'NoticiasController@crearNoticias');
 
