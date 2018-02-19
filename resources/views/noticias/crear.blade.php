@@ -2,8 +2,7 @@
 
 <script>
     $(document).ready(function () {    	
-      	creacionInputsOcultos();
-    	creacionDivRow();
+      	creacionDivRow();
     	divTitulo = creacionDivCol();
     	divTitulo.attr("id","titulo");  
     	$('#formularioNot').append(divTitulo); 
@@ -57,9 +56,10 @@
     	labelFile = creacionLabelFile();
     	custom.append(labelFile);
 
-
-
-
+    	label = creacionLabel("O arrástrelo aquí.");
+		panelBody.append(label);
+		div  = creacionInputImagenZone();
+		panelBody.append(div);
 
     	inputEnviar = creacionInputEnviar();
     	$('#formularioNot').append(inputEnviar); 
@@ -87,107 +87,143 @@
     	
     });
 
-    function aparecer(){
-        $('#noticias').fadeIn(1500);
-      }    
+    /*
+	* Creación input para la imagen    
+	*/
+	function creacionInputImagenZone(){  	
+	    var div = $('<div></div>');        
+	    div.attr("id", "drop-zone");
+	    div.attr("class", "upload-drop-zone");
+	    return div;
+	}
+	/*
+	* Creación input para la fecha   
+	*/
+	function creacionInputFecha(){  	
+	    var inputFecha = $('<input type="date" name="fecha" class="form-control">');        
+	    $('#formularioNoticias').append(inputFecha);  
+	    return inputFecha;
+	}
 
-    function creacionInputsOcultos(){
-    										//input para obtener el id del usuario 
-    	var elemento = $('<input type="show" name="id_user"  value="{{Auth::id()}}>');					
-        $('#formularioNoticias').append(elemento); 
-    }
+	/*
+	* Creación input para el titulo   
+	*/
+	function creacionInputTitulo(){  	
+	    var input = $('<input type="text" class="form-control" name="titulo">'); 
+	    return input;
+	}
 
-     function creacionInputFecha(){ //input pata la fecha    	
-        var inputFecha = $('<input type="date" name="fecha" class="form-control">');        
-        $('#formularioNoticias').append(inputFecha);  
-        return inputFecha;
-    }
+	/*
+	* Creación div class="row"  
+	*/
+	function creacionDivRow(){
+		var elemento = $('<div></div>');
+		elemento.attr("class","row");  
+		elemento.attr("id","formularioNot");  
+		$('#formularioNoticias').append(elemento);     	
+	}
 
-     function creacionInputTitulo(){ //input pata la fecha    	
-        var input = $('<input type="text" class="form-control" name="titulo">'); 
-        return input;
-    }
+	/*
+	* Creación Div class="Col"   
+	*/
+	function creacionDivCol(){
+		var elemento = $('<div></div>');
+		elemento.attr("class","col-md-6");  
+		return elemento;   	
+	}   
 
-    function creacionDivRow(){
-    	var elemento = $('<div></div>');
-    	elemento.attr("class","row");  
-    	elemento.attr("id","formularioNot");  
-    	$('#formularioNoticias').append(elemento);     	
-    }
+	/*
+	* Creación div, panel Body
+	*/
+	function creacionDivPanelBody(){
+		var elemento = $('<div></div>');
+		elemento.attr("class","panel-body");  
+		return elemento;   	
+	} 
 
-    function creacionDivCol(){
-    	var elemento = $('<div></div>');
-    	elemento.attr("class","col-md-6");  
-    	return elemento;   	
-    }   
+	/*
+	* Creación div para adjuntar archivo  
+	*/
+	function creacionDivAdjuntar(){
+		var elemento = $('<div></div>');
+		elemento.attr("id","adjuntarArchivo");  
+		return elemento;   	
+	} 
 
-    function creacionDivPanelBody(){
-    	var elemento = $('<div></div>');
-    	elemento.attr("class","panel-body");  
-    	return elemento;   	
-    } 
+	/*
+	* Creación div class="form-group"
+	*/
 
-    function creacionDivAdjuntar(){
-    	var elemento = $('<div></div>');
-    	elemento.attr("id","adjuntarArchivo");  
-    	return elemento;   	
-    } 
+	function creacionDivClassFormGrup(){
+		var elemento = $('<div></div>');
+		elemento.attr("class","form-group");      	
+		return elemento;
+	}
 
-    function creacionDivClassFormGrup(){
-    	var elemento = $('<div></div>');
-    	elemento.attr("class","form-group");      	
-    	return elemento;
-    }
+	function creacionDivClassForm(){
+		var elemento = $('<div class="form-control custom-file">');   	
+		return elemento;
 
-    function creacionDivClassForm(){
-    	var elemento = $('<div class="form-control custom-file">');   	
-    	return elemento;
+	}
 
-    }
+	/*
+	* Creación input para la imagen type file   
+	*/
+	function creacionInputFile(){
+		var elemento = $('<input name="imagen" type="file" class="custom-file-input">');    	
+		return elemento;
+	}
 
-     function creacionInputFile(){
-    	var elemento = $('<input name="imagen" type="file" class="custom-file-input">');    	
-    	return elemento;
-    }
+	/*
+	* Creación label File
+	*/
+	 function creacionLabelFile(){
+		var elemento = creacionLabel("Selecciona el archivo");
+		elemento.attr('id', "archivo");
+		elemento.attr('class', "custom-file-label");    	
+		return elemento;
+	}
 
-     function creacionLabelFile(){
-    	var elemento = creacionLabel("Selecciona el archivo");
-    	elemento.attr('id', "archivo");
-    	elemento.attr('class', "custom-file-label");    	
-    	return elemento;
-    }
+	/*
+	* Creación label para los inputs
+	* parametro texto, cadena que llevara el label
+	*/
+	function creacionLabel(texto){
+		var elemento = $('<label></label>');
+		elemento.text(texto); 
+		return elemento;
+	}
 
-    function creacionLabel(texto){
-    	var elemento = $('<label></label>');
-    	elemento.text(texto); 
-    	return elemento;
-    }
+	/*
+	* Creación textArea para la descripcion
+	*/
+	function creacionTextArea(){
+		var elemento = $('<textarea class="descripcion form-control" rows="3" cols="3" name="descripcion"></textarea>');    	
+		return elemento;
+	}
 
-    function creacionTextArea(){
-    	var elemento = $('<textarea class="descripcion form-control" rows="5" name="descripcion"></textarea>');    	
-    	return elemento;
-    }
-     
-    function creacionInputEnviar(){
-    	var elemento = $('<input class="btn btn-100" id="enviarFormulario" type="button" value="Enviar">');    	
-    	return elemento;
-    }
+	/*
+	* Creación input type submit
+	*/
+	function creacionInputEnviar(){
+		var elemento = $('<input class="btn btn-100" id="enviarFormulario" type="button" value="Enviar">');    	
+		return elemento;
+}
 
 
 </script>
 
 <div class="container">
 
-{{ Breadcrumbs::render('denuncias') }}
+{{ Breadcrumbs::render('noticias') }}
 
     <div id="noticias" class="caja">
         <h5>Crear una noticia</h5>
 
          {{ Form::open(array('url' => 'noticias/crear', 'id' => 'formularioNoticias', 'enctype' => 'multipart/form-data')) }}
-            {{ csrf_field() }}
+            {{ csrf_field() }}          
 
-
-
+            <input type="hidden" name="id_user" value="{{Auth::id()}}">
 
           {{ Form::close() }}       
     </div>

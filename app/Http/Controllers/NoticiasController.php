@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 use App\Noticia;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use Storage;
 
 class NoticiasController extends Controller
 {
@@ -20,18 +21,15 @@ class NoticiasController extends Controller
 
     public function store(Request $request)
     {
-        //Falta guardar el archivo
-        $n = new Noticia;
-        $n->titulo = $request->input('titulo'); 
-        $n->descripcion = $request->input('descripcion'); 
-        $n = $request->file('imagen');
-        $n->imagen = $archivo->getClientOriginalName();        
-        $n->fecha = $request->input('fecha');
-        $n->user_id = $request->input('id_user');            
-        $n->save();
-        Storage::disk('local')->put($n->imagen,  \File::get($archivo));
+        $noticia = new Noticia;
+        $noticia->titulo = $request->input('titulo'); 
+        $noticia->descripcion = $request->input('descripcion'); 
+        $archivo = $request->file('imagen');
+        $noticia->imagen = $archivo->getClientOriginalName();        
+        $noticia->fecha = $request->input('fecha');
+        $noticia->user_id = $request->input('id_user');            
+        $noticia->save();
+        Storage::disk('local')->put($noticia->imagen,  \File::get($archivo));
         return view('noticias.crear');
-    }
-
-    
+    }    
 }
