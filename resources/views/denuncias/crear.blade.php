@@ -35,7 +35,6 @@
             {{ csrf_field() }}
             <input type="hidden" name="id_user" value="{{Auth::id()}}">
             <input type="hidden" name="atendidoPor" value="0">
-            <input type="hidden" name="fecha" value="{{date('Y-m-d H:i:s')}}">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">

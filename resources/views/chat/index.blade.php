@@ -31,7 +31,7 @@
 						</div>
 						<div id="inputMensaje">
 							<form>
-								<input name="id_chat" value="{{$chat->id_chat}}" type="hidden">
+								{{ csrf_field() }}
 								<input type="hidden" name="fecha" value="{{date('Y-m-d H:i:s')}}">
 								<input type="hidden" name="id_user" value="{{Auth::id()}}">
 								<input type="hidden" name="id_chat" value="{{$chat->id_chat}}">

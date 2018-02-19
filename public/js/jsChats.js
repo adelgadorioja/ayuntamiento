@@ -7,7 +7,7 @@ window.onload = function() {
 function enviarMensaje() {
     $.ajax({
         type: "POST",
-        url: "{{asset('chat/enviar')}}",
+        url: "enviar",
         data: $(this).closest("form").serialize(),
         success: function(data)
         {

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Chatroom;
+use App\Mensaje;
 
 class ChatController extends Controller
 {
@@ -32,7 +33,6 @@ class ChatController extends Controller
     {
         $mensaje = new Mensaje;
         $mensaje->contenido = $request->input('mensaje');
-        $mensaje->fecha = $request->input('fecha');
         $mensaje->user_id = $request->input('id_user');
         $mensaje->id_chat = $request->input('id_chat');
         $mensaje->save();
