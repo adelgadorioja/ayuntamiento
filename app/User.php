@@ -9,7 +9,7 @@ class User extends Authenticatable
 {
     use Notifiable;
 
-    public function mensaje() {
+    public function mensajes() {
         return $this->hasMany('App\Mensaje');
     }
 
@@ -19,7 +19,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'id', 'name', 'email', 'password',
     ];
 
     /**

@@ -8,7 +8,7 @@ class Mensaje extends Model
 {
     protected $table = 'msjChat';
 
-    public function user() {
-        return $this->belongsTo('App\User');
+    public function users() {
+        return $this->belongsTo('App\User', 'user_id');
     }
 }

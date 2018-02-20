@@ -38,12 +38,17 @@ class ChatController extends Controller
         $mensaje->save();
     }
 
-    public function primeraConexion() {
-        $mensajes = Mensaje::all();
-        return response()->json(
-            $mensajes
-        );
+    public function primeraConexion($id_chat) {
+        $mensajes = Mensaje::where('id_chat', $id_chat)
+                            ->orderBy('created_at', 'DESC')
+                            ->limit(20)
+                            ->with('users')
+                            ->get();
+        return $mensajes;
     }
 
-    
+    public function recibirMensajes() {
+        $mensajes = Mensaje::with('users')->get();
+        //return $mensajes;
+    }
 }

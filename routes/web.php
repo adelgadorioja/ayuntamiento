@@ -60,4 +60,6 @@ Route::name('crearNoticias')->match(array('POST'),'noticias/crear', 'NoticiasCon
 
 Route::name('enviarMensaje')->match(array('POST'),'chat/enviar', 'ChatController@enviar');
 
-Route::name('primeraConexion')->match(array('GET'),'chat/primera_conexion', 'ChatController@primeraConexion');
+Route::name('primeraConexion')->match(array('GET'),'chat/primera_conexion/{id_chat}', 'ChatController@primeraConexion');
+
+Route::name('recibirMensajes')->match(array('GET'),'chat/recibir_mensajes', 'ChatController@recibirMensajes');
