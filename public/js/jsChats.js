@@ -22,17 +22,21 @@ function enviarMensaje() {
 
 function primeraConexion() {
     var usuario = $('input[name="user_id"]').val();
-    var tipoMensaje = "mensajeRecibido";
-    var offset = "";
-    var circuloAntes = '<div class="col-1">' + '<div class="circulo"></div>' + '</div>';
-    var circuloDespues = "";
-    var color = "";
+    var tipoMensaje;
+    var offset;
+    var circuloAntes;
+    var circuloDespues;
+    var color;
     $.ajax({
         type: "GET",
         url: "primera_conexion",
         success: function(mensajes)
         {
             mensajes.forEach(mensaje => {
+                tipoMensaje = "mensajeRecibido";
+                offset = "";
+                circuloAntes = '<div class="col-1">' + '<div class="circulo"></div>' + '</div>';
+                circuloDespues = "";
                 color = asignarColor(mensaje.user_id);
                 if(usuario == mensaje.user_id) {
                     tipoMensaje = "mensajeEnviado";
