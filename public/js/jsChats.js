@@ -1,6 +1,6 @@
 var usuarios = [];
 var colores = [];
-var id_chat = 1;
+var id_chat;
 
 window.onload = function () {
     $(document).ready(function () {

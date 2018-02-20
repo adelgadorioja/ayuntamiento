@@ -39,11 +39,23 @@ class ChatController extends Controller
     }
 
     public function primeraConexion($id_chat) {
-        $mensajes = Mensaje::where('id_chat', $id_chat)
-                            ->orderBy('created_at', 'DESC')
-                            ->limit(20)
-                            ->with('users')
-                            ->get();
+        $date = date_create();
+        date_sub($date,date_interval_create_from_date_string("1 hour"));
+
+        $mensajes = Mensaje::with('users')
+        ->where('id_chat', $id_chat)
+        ->where('created_at', '>', $date)
+        ->orderBy('created_at', 'DESC')
+        ->get();
+
+        if(count($mensajes) == 0) {
+            $mensajes = Mensaje::where('id_chat', $id_chat)
+            ->orderBy('created_at', 'DESC')
+            ->limit(20)
+            ->with('users')
+            ->get();
+        }
+
         return $mensajes;
     }
 
