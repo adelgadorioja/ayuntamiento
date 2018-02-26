@@ -61,6 +61,12 @@
 		div  = creacionInputImagenZone();
 		panelBody.append(div);
 
+		label = creacionLabel("Categoria")
+		categoria = creacionInputCategoria();
+		panelBody.append(label);
+		panelBody.append(categoria);
+
+
     	inputEnviar = creacionInputEnviar();
     	$('#formularioNot').append(inputEnviar); 
 
@@ -110,6 +116,14 @@
 	*/
 	function creacionInputTitulo(){  	
 	    var input = $('<input type="text" class="form-control" name="titulo">'); 
+	    return input;
+	}
+
+	/*
+	* Creación input para la categoria   
+	*/
+	function creacionInputCategoria(){  	
+	    var input = $('<input type="text" class="form-control" name="categoria">'); 
 	    return input;
 	}
 

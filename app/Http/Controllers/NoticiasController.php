@@ -10,9 +10,16 @@ class NoticiasController extends Controller
 {
    public function mostrarNoticias()
     {
+        //SELECT DISTINCT(categoria) FROM Noticias WHERE categoria is NOT NULL;
        $array = Noticia::orderBy('fecha', 'DESC')->get();
-       return view('noticias.index', array('arrayNoticias'=> $array ));
-	}
+       $categorias = Noticia::DISTINCT('categoria')->get();
+       return view('noticias.index', array('arrayNoticias'=> $array,'arrayCategorias'=>$categorias));
+    }
+
+    public function mostrarNoticiaPorCategoria($categoria){
+        $array = Noticia::where('categoria',$categoria)->get();
+        return $array;
+    }
 
     public function crearNoticias()
     {
@@ -27,7 +34,8 @@ class NoticiasController extends Controller
         $archivo = $request->file('imagen');
         $noticia->imagen = $archivo->getClientOriginalName();        
         $noticia->fecha = $request->input('fecha');
-        $noticia->user_id = $request->input('id_user');            
+        $noticia->user_id = $request->input('id_user');     
+        $noticia->categoria = $request->input('categoria');       
         $noticia->save();
         Storage::disk('local')->put($noticia->imagen,  \File::get($archivo));
         return view('noticias.crear');
