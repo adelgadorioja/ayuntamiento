@@ -35,7 +35,15 @@ class NoticiasController extends Controller
         $noticia->imagen = $archivo->getClientOriginalName();        
         $noticia->fecha = $request->input('fecha');
         $noticia->user_id = $request->input('id_user');     
-        $noticia->categoria = $request->input('categoria');       
+        $noticia->categoria = $request->input('categoria');
+        $noticia->importante = $request->input('fechaActual'); 
+
+        if($noticia->fecha) {
+            $noticiasImportantes = Noticia::where('importante','!=', null)->get();
+            $noticiasImportantes->importante = null;
+            $noticiasImportantes->update();
+        }     
+
         $noticia->save();
         Storage::disk('local')->put($noticia->imagen,  \File::get($archivo));
         return view('noticias.crear');
