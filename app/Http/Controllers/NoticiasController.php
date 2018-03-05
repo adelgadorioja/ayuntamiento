@@ -11,7 +11,17 @@ class NoticiasController extends Controller
    public function mostrarNoticias()
     {
         //SELECT DISTINCT(categoria) FROM Noticias WHERE categoria is NOT NULL;
-       $array = Noticia::orderBy('fecha', 'DESC')->get();
+       $array = Noticia::orderBy('importante', 'DESC')->orderBy('fecha', 'DESC')->get();
+       foreach($array as $noticia) {
+           if($noticia->importante != null) {
+            $date = date_create();
+            date_sub($date,date_interval_create_from_date_string("7 days"));
+            if($noticia->importante < $date) {
+                $noticia->importante = null;
+                $noticia->save();
+            }
+           }
+       }
        $categorias = Noticia::DISTINCT('categoria')->get();
        return view('noticias.index', array('arrayNoticias'=> $array,'arrayCategorias'=>$categorias));
     }
@@ -38,11 +48,13 @@ class NoticiasController extends Controller
         $noticia->categoria = $request->input('categoria');
         $noticia->importante = $request->input('fechaActual'); 
 
-        if($noticia->fecha) {
+        if($noticia->importante != "" && $noticia->importante != null) {
             $noticiasImportantes = Noticia::where('importante','!=', null)->get();
-            $noticiasImportantes->importante = null;
-            $noticiasImportantes->update();
-        }     
+            foreach ($noticiasImportantes as $noticiaImportante) {
+                $noticiaImportante->importante = null;
+                $noticiaImportante->save();
+            }   
+        }
 
         $noticia->save();
         Storage::disk('local')->put($noticia->imagen,  \File::get($archivo));
