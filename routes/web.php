@@ -52,12 +52,13 @@ Route::name('crearNoticias')->match(array('GET'),'noticias/crear', 'NoticiasCont
 
 Route::name('crearNoticias')->match(array('POST'),'noticias/crear', 'NoticiasController@store');
 
+Route::name('eliminarNoticias')->match(array('GET'),'noticias/eliminar/{idNoticia}', 'NoticiasController@eliminarNoticias');
+
+Route::name('eliminarNoticias')->match(array('POST'),'noticias/eliminar/{idNoticia}', 'NoticiasController@eliminarNoticias');
+
 Route::name('mostrarNoticiaPorCategoria')->match(array('GET'),'noticias/categoria/{idCategoria}', 'NoticiasController@mostrarNoticiaPorCategoria');
 
-
-
-
-// API
+// API ---------------------------------------------------------------------------
 
 Route::name('enviarMensaje')->match(array('POST'),'chat/enviar', 'ChatController@enviar');
 

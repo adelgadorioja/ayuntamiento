@@ -82,7 +82,6 @@ h5, h6 {
 
 #imagenPortada {
     border-right: 0.3em solid #72a8ff;
-    background-image: url(../imagenes/people.jpg);
     -webkit-background-size: cover;
  	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -91,13 +90,20 @@ h5, h6 {
   	background-repeat: no-repeat;
 }
 
+
+#imagenPorta {
+   width: 700px;
+   height: 400px;
+}
+
+
 #noticias {
     border-left: 0.3em solid #72a8ff;
 }
 
 .imagenApartado {
     height: 6em;
-    background-color: #72a8ff;
+    background-color: black;
     margin-bottom: 1em;
     border-bottom: 0.3em solid #e9ecef;
     -webkit-background-size: cover;

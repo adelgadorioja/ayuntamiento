@@ -69,7 +69,7 @@ function mostrarMensaje(mensaje) {
     offset = "";
     circuloAntes = '<div class="col-1">' + '<div class="circulo"></div>' + '</div>';
     circuloDespues = "";
-    color = asignarColor(mensaje.user_id);
+    color = asignarColor(mensaje.user_id);  
     if (usuario == mensaje.user_id) {
         tipoMensaje = "mensajeEnviado";
         offset = "offset-3";
@@ -80,7 +80,7 @@ function mostrarMensaje(mensaje) {
         $(
             '<div class="row">' +
             circuloAntes +
-            '<div class="col-8 mensaje ' + offset + " " + tipoMensaje + '">' +
+            '<div id="msjj" class="col-8 mensaje ' + offset + " " + tipoMensaje + '">' +
             '<p>' +
             '<span style="color: ' + color + '">' + mensaje.users.name + '</span>' + ' ' +
             '<span class="fecha">' + mensaje.created_at + '</span>' +

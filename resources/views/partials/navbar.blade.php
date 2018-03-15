@@ -21,7 +21,9 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="{{ url('noticias/crear') }}">Crear Noticia</a>
+                         <a class="dropdown-item" href="{{ url('noticias/index') }}">Eliminar Noticia</a>
                     </div>
+                    
                     @else
                     <li class="nav-item">
                         <a class="nav-link" href="{{url('noticias/index')}}">Noticias</a>

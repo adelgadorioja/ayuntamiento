@@ -1,19 +1,13 @@
 @extends('layouts.master')
-<script src="{{ asset('js/noticias.js') }}"></script>
-
+<script src="{{ asset('js/aleatorio.js') }}"></script>
 @section('content')
+
 
 <div class="container">	
 {{ Breadcrumbs::render('mostrarNoticias') }}
     <div id="denuncias" class="caja"> 
     	<h5>Listado de noticias</h5>
-		<hr> 
-		<select>
-		<option>Categoría</option>	 
-		@foreach( $arrayCategorias as $key => $categoria)
-			<option value="{{$categoria->categoria}}">{{$categoria->categoria}}</option>
-		@endforeach
-		</select>   
+		<hr> 		
          <table id="arrayNoticias" class="table table-bordered">
 		    <thead>
 		      <tr>
@@ -33,7 +27,7 @@
 		        <td>{{$noticia->titulo}}</td>
 		        <td>{{$noticia->descripcion}}</td>
 		        <td>{{$noticia->fecha}}</td>
-		        <td>{{$noticia->categoria}}</td>
+		         <td>{{$noticia->categoria}}</td>
 		        <td> <img width="100px;" height="100px;" src="/storage/{{$noticia->imagen}}" class="img-fluid"></td>
 		        <td><input id="idNoticia" type="button" name="{{$noticia->id_noticia}}" onclick="eliminarNoticia()">eliminar</input></td>
 		      </tr>

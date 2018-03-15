@@ -1,7 +1,6 @@
 @extends('layouts.master')
-<script src="{{ asset('js/jsChats.js') }}">
-
-</script> @section('content')
+<script src="{{ asset('js/jsChats.js') }}"></script>
+@section('content')
 <div class="container">
 	{{ Breadcrumbs::render('chats') }}
 	<div class="container">
@@ -22,7 +21,7 @@
 							<div id="cabeceraChat" class="col-12">
 								<h5>{{$chat->titulo}}</h5>
 								<h6>X miembros</h6>
-							</div>
+							</div>							
 						</div>
 						<div class="ventanaChat">
 							<div id="mensajes" class="container">
@@ -50,7 +49,9 @@
 				</div>
 				@endforeach
 			</div>
+
 		</div>
 	</div>
-</div>
+		
+	</div>
 @stop

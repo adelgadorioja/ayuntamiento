@@ -39,5 +39,11 @@ class NoticiasController extends Controller
         $noticia->save();
         Storage::disk('local')->put($noticia->imagen,  \File::get($archivo));
         return view('noticias.crear');
+    }
+
+    public function eliminarNoticias($idNoticia)
+    {
+        $array = Noticia::find($idNoticia);
+        $array->delete();
     }    
 }
