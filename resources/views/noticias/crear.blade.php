@@ -1,7 +1,7 @@
 @extends('layouts.master') @section('content')
 
 <script>
-    $(document).ready(function () {    	
+    $(document).ready(function () {
       	creacionDivRow();
     	divTitulo = creacionDivCol();
     	divTitulo.attr("id","titulo");  
@@ -42,7 +42,6 @@
     	label = creacionLabel("Adjuntar Archivo:");
     	adjuntar.append(label);
 
-
     	divGroup = creacionDivClassFormGrup();
     	divGroup.attr('id', 'image');
     	adjuntar.append(divGroup);
@@ -65,6 +64,12 @@
 		categoria = creacionInputCategoria();
 		panelBody.append(label);
 		panelBody.append(categoria);
+
+		input = creacionCheckboxNoticiaImportante();
+		$('#formularioNot').append(input);
+
+		input = creacionInputFechaActualHidden();
+		$('#formularioNot').append(input);
 
 
     	inputEnviar = creacionInputEnviar();
@@ -89,7 +94,9 @@
                 '</button>' +
                 'La Noticia se ha guardado correctamente. Gracias.' +
                 '</div>');
-        });
+		});
+		
+		$('input[name="importante"]').click(obtenerFechaActual);
     	
     });
 
@@ -125,6 +132,19 @@
 	function creacionInputCategoria(){  	
 	    var input = $('<input type="text" class="form-control" name="categoria">'); 
 	    return input;
+	}
+
+	/*
+	* Creación checkbox noticia importante   
+	*/
+	function creacionCheckboxNoticiaImportante(){  	
+	    var input = $('<label class="col-md-6 checkbox-inline"><input type="checkbox" name="importante" value=""> ¿Marcar como importante?</label>'); 
+	    return input;
+	}
+
+	function creacionInputFechaActualHidden() {
+		var input = $('<input name="fechaActual" type="hidden"></input>'); 
+		return input;
 	}
 
 	/*
@@ -222,7 +242,18 @@
 	function creacionInputEnviar(){
 		var elemento = $('<input class="btn btn-100" id="enviarFormulario" type="button" value="Enviar">');    	
 		return elemento;
-}
+	}
+
+	/*
+	* Modificar input de la fecha
+	*/
+	function obtenerFechaActual() {
+		if($('input[name="importante"]').is(':checked')) {
+			$('input[name="fechaActual"]').val("{{ date('Y-m-d H:i:s') }}");
+		} else {
+			$('input[name="fechaActual"]').val('');
+		}
+	}
 
 
 </script>

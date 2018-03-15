@@ -1,3 +1,9 @@
+/*
+    Autor: Álvaro
+    Fecha: 27/02/18
+    Función: API chat
+*/
+
 var usuarios = [];
 var colores = [];
 var id_chat;
@@ -11,6 +17,13 @@ window.onload = function () {
     })
 };
 
+
+/*
+    Nombre de la función: enviarMensaje
+    Parámetros: -
+    Valor de retorno: -
+    Función: Guarda un mensaje en BBDD.
+*/
 function enviarMensaje() {
     $.ajax({
         type: "POST",
@@ -22,6 +35,12 @@ function enviarMensaje() {
     });
 }
 
+/*
+    Nombre de la función: primeraConexion
+    Parámetros: -
+    Valor de retorno: 30 últimos mensajes o mensajes enviados en la última hora (JSON)
+    Función: Recupera los mensajes de BBDD.
+*/
 function primeraConexion() {
     id_chat = $(this).attr('aria-controls');
     $.ajax({
@@ -36,6 +55,12 @@ function primeraConexion() {
     });
 }
 
+/*
+    Nombre de la función: recibirMensajes
+    Parámetros: -
+    Valor de retorno: Últimos mensajes enviados a BBDD (JSON)
+    Función: Recupera los mensajes recibidos.
+*/
 function recibirMensajes() {
     $.ajax({
         type: "GET",
@@ -51,6 +76,12 @@ function recibirMensajes() {
     });
 }
 
+/*
+    Nombre de la función: asignarColor
+    Parámetros: Nombre de usuario (String)
+    Valor de retorno: Color en hexadecimal
+    Función: Genera un color al azar por cada usuario.
+*/
 function asignarColor(usuario) {
     for (i = 0; i < usuarios.length; i++) {
         if (usuarios[i] == usuario) {
@@ -63,6 +94,12 @@ function asignarColor(usuario) {
     return color;
 }
 
+/*
+    Nombre de la función: mostrarMensaje
+    Parámetros: Mensaje (JSON)
+    Valor de retorno: -
+    Función: Muestra en pantalla el mensaje enviado como parámetro.
+*/
 function mostrarMensaje(mensaje) {
     usuario = $("input[name='user_id']").val();
     tipoMensaje = "mensajeRecibido";

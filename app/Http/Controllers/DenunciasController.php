@@ -46,9 +46,8 @@ class DenunciasController extends Controller
         $archivo = $request->file('imagen');
         $denuncia->imagen = $archivo->getClientOriginalName(); 
         $denuncia->localizacion = $request->input('localizacion');    
-        $denuncia->atendidoPor = $request->input('atendidoPor'); 
-        $denuncia->fecha = $request->input('fecha');
-        $denuncia->user_id = $request->input('id_user');            
+        $denuncia->atendidoPor = $request->input('atendidoPor');
+        $denuncia->user_id = $request->input('id_user');          
         $denuncia->save();
         Storage::disk('local')->put($denuncia->imagen,  \File::get($archivo));
         return view('denuncias.crear');
