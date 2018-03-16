@@ -1,0 +1,4300 @@
+{
+    "project": {},
+    "files": {
+        "bootstrap.bundle.js": {
+            "name": "bootstrap.bundle.js",
+            "modules": {},
+            "classes": {
+                "modifiers.Popper": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "modifiers": 1
+            }
+        },
+        "bootstrap.js": {
+            "name": "bootstrap.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "crearNoticiaJS.js": {
+            "name": "crearNoticiaJS.js",
+            "modules": {},
+            "classes": {
+                "modifiers.crearNoticiaJS": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "jquery-3.2.1.js": {
+            "name": "jquery-3.2.1.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "modifiers.Popper": {
+            "name": "modifiers.Popper",
+            "shortname": "Popper",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "modifiers",
+            "file": "bootstrap.bundle.js",
+            "line": 3680,
+            "description": "Create a new Popper.js instance",
+            "params": [
+                {
+                    "name": "reference",
+                    "description": "- The reference element used to position the popper",
+                    "type": "HTMLElement|referenceObject"
+                },
+                {
+                    "name": "popper",
+                    "description": "- The HTML element used as popper.",
+                    "type": "HTMLElement"
+                },
+                {
+                    "name": "options",
+                    "description": "- Your custom options to override the ones defined in [Defaults](#defaults)",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "instance - The generated Popper.js instance",
+                "type": "Object"
+            }
+        },
+        "modifiers.crearNoticiaJS": {
+            "name": "modifiers.crearNoticiaJS",
+            "shortname": "crearNoticiaJS",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "modifiers",
+            "file": "crearNoticiaJS.js",
+            "line": 1,
+            "description": "Generador del formulario de crear noticia",
+            "is_constructor": 1
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 54,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): util.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 62,
+            "description": "------------------------------------------------------------------------\nPrivate TransitionEnd Helpers\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 128,
+            "description": "--------------------------------------------------------------------------\nPublic Util Api\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 194,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): alert.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 202,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 226,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 341,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 349,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 366,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): button.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 374,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 400,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 492,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 512,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 529,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): carousel.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 537,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 603,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 996,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1011,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1028,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): collapse.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1036,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1076,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1357,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1380,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1397,
+            "fileoverview": "Kickass library to create and place poppers near their reference elements.",
+            "version": "1.12.9",
+            "license": "Copyright (c) 2016 Federico Zivolo and contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1460,
+            "description": "Create a debounced version of a method, that's asynchronously deferred\nbut called in the minimum time possible.",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Function} fn",
+            "return": {
+                "description": "",
+                "type": "Function"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1471,
+            "description": "Check if the given variable is a function",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Any} functionToCheck - variable to check",
+            "return": {
+                "description": "answer to: is a function?",
+                "type": "Boolean"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1483,
+            "description": "Get CSS computed property of the given element",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{String} property",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1499,
+            "description": "Returns the parentNode or the host of the element",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Element} element",
+            "return": {
+                "description": "parent",
+                "type": "Element"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1513,
+            "description": "Returns the scrolling parent of the given element",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Element} element",
+            "return": {
+                "description": "scroll parent",
+                "type": "Element"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1548,
+            "description": "Returns the offset parent of the given element",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Element} element",
+            "return": {
+                "description": "offset parent",
+                "type": "Element"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1586,
+            "description": "Finds the root node (document, shadowDOM root) of the given element",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Element} node",
+            "return": {
+                "description": "root node",
+                "type": "Element"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1601,
+            "description": "Finds the offset parent common to the two provided nodes",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Element} element2",
+            "return": {
+                "description": "common offset parent",
+                "type": "Element"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1645,
+            "description": "Gets the scroll value of the given element in the given side (top and left)",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{String} side `top` or `left`",
+            "return": {
+                "description": "amount of scrolled pixels",
+                "type": "Number"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1707,
+            "description": "Tells if you are running Internet Explorer 10",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "return": {
+                "description": "isIE10",
+                "type": "Boolean"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1794,
+            "description": "Given element offsets, generate an output similar to getBoundingClientRect",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Object} offsets",
+            "return": {
+                "description": "ClientRect like output",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1808,
+            "description": "Get bounding client rect of given element",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "params": [
+                {
+                    "name": "element",
+                    "description": "",
+                    "type": "HTMLElement"
+                }
+            ],
+            "return": {
+                "description": "client rect",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1928,
+            "description": "Check if the given element is fixed or is inside a fixed parent",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Element} customContainer",
+            "return": {
+                "description": "answer to \"isFixed?\"",
+                "type": "Boolean"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 1947,
+            "description": "Computed the boundaries limits and return them",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "params": [
+                {
+                    "name": "popper",
+                    "description": "",
+                    "type": "HTMLElement"
+                },
+                {
+                    "name": "reference",
+                    "description": "",
+                    "type": "HTMLElement"
+                },
+                {
+                    "name": "padding",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "boundariesElement",
+                    "description": "- Element used to define the boundaries",
+                    "type": "HTMLElement"
+                }
+            ],
+            "return": {
+                "description": "Coordinates of the boundaries",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2013,
+            "description": "Utility used to transform the `auto` placement to the placement with more\navailable space.",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2073,
+            "description": "Get offsets to the reference element",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "popper",
+                    "description": "- the popper element",
+                    "type": "Element"
+                },
+                {
+                    "name": "reference",
+                    "description": "- the reference element (the popper will be relative to this)",
+                    "type": "Element"
+                }
+            ],
+            "return": {
+                "description": "An object containing the offsets which will be applied to the popper",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2087,
+            "description": "Get the outer sizes of the given element (offset size + margins)",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Element} element",
+            "return": {
+                "description": "object containing width and height properties",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2105,
+            "description": "Get the opposite placement of the given one",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{String} placement",
+            "return": {
+                "description": "flipped placement",
+                "type": "String"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2119,
+            "description": "Get offsets to the popper",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "params": [
+                {
+                    "name": "position",
+                    "description": "- CSS position the Popper will get applied",
+                    "type": "Object"
+                },
+                {
+                    "name": "popper",
+                    "description": "- the popper element",
+                    "type": "HTMLElement"
+                },
+                {
+                    "name": "referenceOffsets",
+                    "description": "- the reference offsets (the popper will be relative to this)",
+                    "type": "Object"
+                },
+                {
+                    "name": "placement",
+                    "description": "- one of the valid placement options",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "popperOffsets - An object containing the offsets which will be applied to the popper",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2158,
+            "description": "Mimics the `find` method of Array",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "value",
+            "return": {
+                "description": "index or -1"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2177,
+            "description": "Return the index of the matching object",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "value",
+            "return": {
+                "description": "index or -1"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2201,
+            "description": "Loop trough the list of modifiers and run them in order,\neach of them will then edit the data object.",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "DataObject"
+                },
+                {
+                    "name": "modifiers",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "ends",
+                    "description": "- Optional modifier name used as stopper",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "DataObject"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2234,
+            "description": "Updates the position of the popper, computing the new offsets and applying\nthe new style.<br />\nPrefer `scheduleUpdate` over `update` because of performance reasons.",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2284,
+            "description": "Helper used to know if the given modifier is enabled.",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2298,
+            "description": "Get the prefixed supported property name",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{String} property (camelCase)",
+            "return": {
+                "description": "prefixed property (camelCase or PascalCase, depending on the vendor prefix)",
+                "type": "String"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2319,
+            "description": "Destroy the popper",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2346,
+            "description": "Get the window associated with the element",
+            "argument": "{Element} element",
+            "return": {
+                "description": "",
+                "type": "Window"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2367,
+            "description": "Setup needed event listeners used to update the popper position",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "access": "private",
+            "tagname": "",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2387,
+            "description": "It will add resize/scroll events and start recalculating\nposition of the popper element when they are triggered.",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2399,
+            "description": "Remove event listeners used to update the popper position",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "access": "private",
+            "tagname": "",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2422,
+            "description": "It will remove resize/scroll events and won't recalculate popper position\nwhen they are triggered. It also won't trigger onUpdate callback anymore,\nunless you call `update` method manually.",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2436,
+            "description": "Tells if a given input is a number",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "params": [
+                {
+                    "name": "input",
+                    "description": "to check",
+                    "type": "*"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2447,
+            "description": "Set the style to the given popper",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Object} styles\nObject with a list of properties and values which will be applied to the element",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2466,
+            "description": "Set the attributes to the given popper",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Object} styles\nObject with a list of properties and values which will be applied to the element",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2485,
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Modifiers",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The same data object",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2513,
+            "description": "Set the x-placement attribute before everything else because it could be used\nto add margins to the popper margins needs to be calculated to get the\ncorrect popper offsets.",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.modifiers",
+            "params": [
+                {
+                    "name": "reference",
+                    "description": "- The reference element used to position the popper",
+                    "type": "HTMLElement"
+                },
+                {
+                    "name": "popper",
+                    "description": "- The HTML element used as popper.",
+                    "type": "HTMLElement"
+                },
+                {
+                    "name": "options",
+                    "description": "- Popper.js options",
+                    "type": "Object"
+                }
+            ],
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2541,
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Modifiers",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2635,
+            "description": "Helper used to know if the given modifier depends from another one.<br />\nIt checks if the needed modifier is listed and enabled.",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "params": [
+                {
+                    "name": "modifiers",
+                    "description": "- list of modifiers",
+                    "type": "Array"
+                },
+                {
+                    "name": "requestingName",
+                    "description": "- name of requesting modifier",
+                    "type": "String"
+                },
+                {
+                    "name": "requestedName",
+                    "description": "- name of requested modifier",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2663,
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Modifiers",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2745,
+            "description": "Get the opposite placement variation of the given one",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{String} placement variation",
+            "return": {
+                "description": "flipped placement variation",
+                "type": "String"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2761,
+            "description": "List of accepted placements to use as values of the `placement` option.<br />\nValid placements are:\n- `auto`\n- `top`\n- `right`\n- `bottom`\n- `left`\n\nEach placement can have a variation from this list:\n- `-start`\n- `-end`\n\nVariations are interpreted easily if you think of them as the left to right\nwritten languages. Horizontally (`top` and `bottom`), `start` is left and `end`\nis right.<br />\nVertically (`left` and `right`), `start` is top and `end` is bottom.\n\nSome valid examples are:\n- `top-end` (on top of reference, right aligned)\n- `right-start` (on right of reference, top aligned)\n- `bottom` (on bottom, centered)\n- `auto-right` (on the side with more space available, alignment depends by placement)",
+            "static": 1,
+            "type": "{Array}",
+            "enum": "{String}",
+            "readonly": "",
+            "itemtype": "method",
+            "name": "placements",
+            "memberof": "Popper",
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2797,
+            "description": "Given an initial placement, returns all the subsequent placements\nclockwise (or counter-clockwise).",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Popper.Utils",
+            "argument": "{Boolean} counter - Set to true to walk the placements counterclockwise",
+            "return": {
+                "description": "placements including their variations",
+                "type": "Array"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2821,
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Modifiers",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2911,
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Modifiers",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2940,
+            "description": "Converts a string containing value + unit into a px value number",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "{modifiers~offset}",
+            "access": "private",
+            "tagname": "",
+            "argument": "{Object} referenceOffsets",
+            "return": {
+                "description": "Value in pixels, or original string if no values were extracted",
+                "type": "Number|String"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 2993,
+            "description": "Parse an `offset` string to extrapolate `x` and `y` numeric offsets.",
+            "itemtype": "method",
+            "name": "",
+            "memberof": "{modifiers~offset}",
+            "access": "private",
+            "tagname": "",
+            "argument": "{String} basePlacement",
+            "return": {
+                "description": "a two cells array with x and y offsets in numbers",
+                "type": "Array"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3071,
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Modifiers",
+            "argument": "{Number|String} options.offset=0\nThe offset value as described in the modifier description",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3114,
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Modifiers",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3165,
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Modifiers",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3198,
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Modifiers",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3236,
+            "itemtype": "method",
+            "name": "",
+            "memberof": "Modifiers",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "Object"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3262,
+            "description": "Modifier function, each modifier can have a function of this type assigned\nto its `fn` property.<br />\nThese functions will be called on each update, this means that you must\nmake sure they are performant enough to avoid performance bottlenecks.",
+            "itemtype": "method",
+            "name": "ModifierFn",
+            "argument": "{Object} options - Modifiers configuration and options",
+            "return": {
+                "description": "The data object, properly modified",
+                "type": "DataObject"
+            },
+            "class": "modifiers.Popper"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3274,
+            "description": "Modifiers are plugins used to alter the behavior of your poppers.<br />\nPopper.js uses a set of 9 modifiers to provide all the basic functionalities\nneeded by the library.\n\nUsually you don't want to override the `order`, `fn` and `onLoad` props.\nAll the other properties are configurations that could be tweaked.",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3284,
+            "description": "Modifier used to shift the popper on the start or end of its reference\nelement.<br />\nIt will read the variation of the `placement` property.<br />\nIt can be one either `-end` or `-start`.",
+            "memberof": "modifiers",
+            "access": "inner",
+            "tagname": "",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3293,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3295,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3297,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3301,
+            "description": "The `offset` modifier can shift your popper on both its axis.\n\nIt accepts the following units:\n- `px` or unitless, interpreted as pixels\n- `%` or `%r`, percentage relative to the length of the reference element\n- `%p`, percentage relative to the length of the popper element\n- `vw`, CSS viewport width unit\n- `vh`, CSS viewport height unit\n\nFor length is intended the main axis relative to the placement of the popper.<br />\nThis means that if the placement is `top` or `bottom`, the length will be the\n`width`. In case of `left` or `right`, it will be the height.\n\nYou can provide a single value (as `Number` or `String`), or a pair of values\nas `String` divided by a comma or one (or more) white spaces.<br />\nThe latter is a deprecated method because it leads to confusion and will be\nremoved in v2.<br />\nAdditionally, it accepts additions and subtractions between different units.\nNote that multiplications and divisions aren't supported.\n\nValid examples are:\n```\n10\n'10%'\n'10, 10'\n'10%, 10'\n'10 + 10%'\n'10 - 5vh + 3%'\n'-10px + 5vh, 5px - 6%'\n```\n> **NB**: If you desire to apply offsets to your poppers in a way that may make them overlap\n> with their reference element, unfortunately, you will have to disable the `flip` modifier.\n> More on this [reading this issue](https://github.com/FezVrasta/popper.js/issues/373)",
+            "memberof": "modifiers",
+            "access": "inner",
+            "tagname": "",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3340,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3342,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3344,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3346,
+            "description": "The offset value as described in the modifier description",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3352,
+            "description": "Modifier used to prevent the popper from being positioned outside the boundary.\n\nAn scenario exists where the reference itself is not within the boundaries.<br />\nWe can say it has \"escaped the boundaries\" — or just \"escaped\".<br />\nIn this case we need to decide whether the popper should either:\n\n- detach from the reference and remain \"trapped\" in the boundaries, or\n- if it should ignore the boundary and \"escape with its reference\"\n\nWhen `escapeWithReference` is set to`true` and reference is completely\noutside its boundaries, the popper will overflow (or completely leave)\nthe boundaries in order to remain attached to the edge of the reference.",
+            "memberof": "modifiers",
+            "access": "inner",
+            "tagname": "",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3370,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3372,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3374,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3376,
+            "itemtype": "property",
+            "name": "[priority=['left','right','top','bottom']]!~YUIDOC_LINE~!Popper will try to prevent overflow following these priorities by default,!~YUIDOC_LINE~!then, it could overflow on the left and on top of the `boundariesElement`",
+            "type": "Array",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3382,
+            "itemtype": "property",
+            "name": "padding=5!~YUIDOC_LINE~!Amount of pixel used to define a minimum distance between the boundaries!~YUIDOC_LINE~!and the popper this makes sure the popper has always a little padding!~YUIDOC_LINE~!between the edges of its container",
+            "type": "Number",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3389,
+            "itemtype": "property",
+            "name": "boundariesElement='scrollParent'!~YUIDOC_LINE~!Boundaries used by the modifier, can be `scrollParent`, `window`,!~YUIDOC_LINE~!`viewport` or any DOM element.",
+            "type": "String|HTMLElement",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3397,
+            "description": "Modifier used to make sure the reference and its popper stay near eachothers\nwithout leaving any gap between the two. Expecially useful when the arrow is\nenabled and you want to assure it to point to its reference element.\nIt cares only about the first axis, you can still have poppers with margin\nbetween the popper and its reference element.",
+            "memberof": "modifiers",
+            "access": "inner",
+            "tagname": "",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3407,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3409,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3411,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3415,
+            "description": "This modifier is used to move the `arrowElement` of the popper to make\nsure it is positioned between the reference element and its popper element.\nIt will read the outer size of the `arrowElement` node to detect how many\npixels of conjuction are needed.\n\nIt has no effect if no `arrowElement` is provided.",
+            "memberof": "modifiers",
+            "access": "inner",
+            "tagname": "",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3426,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3428,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3430,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3432,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3436,
+            "description": "Modifier used to flip the popper's placement when it starts to overlap its\nreference element.\n\nRequires the `preventOverflow` modifier before it in order to work.\n\n**NOTE:** this modifier will interrupt the current update cycle and will\nrestart it if it detects the need to flip the placement.",
+            "memberof": "modifiers",
+            "access": "inner",
+            "tagname": "",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3448,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3450,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3452,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3454,
+            "itemtype": "property",
+            "name": "behavior='flip'!~YUIDOC_LINE~!The behavior used to change the popper's placement. It can be one of!~YUIDOC_LINE~!`flip`, `clockwise`, `counterclockwise` or an array with a list of valid!~YUIDOC_LINE~!placements (with optional variations).",
+            "type": "String|Array",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3461,
+            "itemtype": "property",
+            "name": "padding=5!~YUIDOC_LINE~!The popper will flip if it hits the edges of the `boundariesElement`",
+            "type": "Number",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3466,
+            "itemtype": "property",
+            "name": "boundariesElement='viewport'!~YUIDOC_LINE~!The element which will define the boundaries of the popper position,!~YUIDOC_LINE~!the popper will never be placed outside of the defined boundaries!~YUIDOC_LINE~!(except if keepTogether is enabled)",
+            "type": "String|HTMLElement",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3475,
+            "description": "Modifier used to make the popper flow toward the inner of the reference element.\nBy default, when this modifier is disabled, the popper will be placed outside\nthe reference element.",
+            "memberof": "modifiers",
+            "access": "inner",
+            "tagname": "",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3483,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3485,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3487,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3491,
+            "description": "Modifier used to hide the popper when its reference element is outside of the\npopper boundaries. It will set a `x-out-of-boundaries` attribute which can\nbe used to hide with a CSS selector the popper when its reference is\nout of boundaries.\n\nRequires the `preventOverflow` modifier before it in order to work.",
+            "memberof": "modifiers",
+            "access": "inner",
+            "tagname": "",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3502,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3504,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3506,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3510,
+            "description": "Computes the style that will be applied to the popper element to gets\nproperly positioned.\n\nNote that this modifier will not touch the DOM, it just prepares the styles\nso that `applyStyle` modifier can apply it. This separation is useful\nin case you need to replace `applyStyle` with a custom implementation.\n\nThis modifier has `850` as `order` value to maintain backward compatibility\nwith previous versions of Popper.js. Expect the modifiers ordering method\nto change in future major versions of the library.",
+            "memberof": "modifiers",
+            "access": "inner",
+            "tagname": "",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3526,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3528,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3530,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3532,
+            "itemtype": "property",
+            "name": "gpuAcceleration=true!~YUIDOC_LINE~!If true, it uses the CSS 3d transformation to position the popper.!~YUIDOC_LINE~!Otherwise, it will use the `top` and `left` properties.",
+            "type": "Boolean",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3538,
+            "itemtype": "property",
+            "name": "[x='bottom']!~YUIDOC_LINE~!Where to anchor the X axis (`bottom` or `top`). AKA X offset origin.!~YUIDOC_LINE~!Change this if your popper should grow in a direction different from `bottom`",
+            "type": "String",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3544,
+            "itemtype": "property",
+            "name": "[x='left']!~YUIDOC_LINE~!Where to anchor the Y axis (`left` or `right`). AKA Y offset origin.!~YUIDOC_LINE~!Change this if your popper should grow in a direction different from `right`",
+            "type": "String",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3552,
+            "description": "Applies the computed styles to the popper element.\n\nAll the DOM manipulations are limited to this modifier. This is useful in case\nyou want to integrate Popper.js inside a framework or view library and you\nwant to delegate all the DOM manipulations to it.\n\nNote that if you disable this modifier, you must make sure the popper element\nhas its position set to `absolute` before Popper.js can do its work!\n\nJust disable this modifier and define you own to achieve the desired effect.",
+            "memberof": "modifiers",
+            "access": "inner",
+            "tagname": "",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3568,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3570,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3572,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3574,
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3576,
+            "deprecated": true,
+            "deprecationMessage": "since version 1.10.0, the property moved to `computeStyle` modifier",
+            "itemtype": "property",
+            "name": "gpuAcceleration=true!~YUIDOC_LINE~!If true, it uses the CSS 3d transformation to position the popper.!~YUIDOC_LINE~!Otherwise, it will use the `top` and `left` properties.",
+            "type": "Boolean",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3586,
+            "description": "The `dataObject` is an object containing all the informations used by Popper.js\nthis object get passed to modifiers and to the `onCreate` and `onUpdate` callbacks.",
+            "name": "data.instance The Popper.js instance",
+            "itemtype": "property",
+            "type": "Object",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers",
+            "subprops": [
+                {
+                    "name": "data.placement",
+                    "description": "Placement applied to popper",
+                    "type": "String"
+                },
+                {
+                    "name": "data.originalPlacement",
+                    "description": "Placement originally defined on init",
+                    "type": "String"
+                },
+                {
+                    "name": "data.flipped",
+                    "description": "True if popper has been flipped by flip modifier",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "data.hide",
+                    "description": "True if the reference element is out of boundaries, useful to know when to hide the popper.",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "data.arrowElement",
+                    "description": "Node used as arrow by arrow modifier",
+                    "type": "HTMLElement"
+                },
+                {
+                    "name": "data.styles",
+                    "description": "Any CSS property defined here will be applied to the popper, it expects the JavaScript nomenclature (eg. `marginBottom`)",
+                    "type": "Object"
+                },
+                {
+                    "name": "data.arrowStyles",
+                    "description": "Any CSS property defined here will be applied to the popper arrow, it expects the JavaScript nomenclature (eg. `marginBottom`)",
+                    "type": "Object"
+                },
+                {
+                    "name": "data.boundaries",
+                    "description": "Offsets of the popper boundaries",
+                    "type": "Object"
+                },
+                {
+                    "name": "data.offsets",
+                    "description": "The measurements of popper, reference and arrow elements.",
+                    "type": "Object"
+                },
+                {
+                    "name": "data.offsets.popper",
+                    "description": "`top`, `left`, `width`, `height` values",
+                    "type": "Object"
+                },
+                {
+                    "name": "data.offsets.reference",
+                    "description": "`top`, `left`, `width`, `height` values",
+                    "type": "Object"
+                },
+                {
+                    "name": "data.offsets.arrow]",
+                    "description": "`top` and `left` offsets, only one of them will be different from 0",
+                    "type": "Object"
+                }
+            ]
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3605,
+            "description": "Default options provided to Popper.js constructor.<br />\nThese can be overriden using the `options` argument of Popper.js.<br />\nTo override an option, simply pass as 3rd argument an object with the same\nstructure of this object, example:\n```\nnew Popper(ref, pop, {\n  modifiers: {\n    preventOverflow: { enabled: false }\n  }\n})\n```",
+            "type": "{Object}",
+            "static": 1,
+            "memberof": "Popper",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3622,
+            "description": "Popper's placement",
+            "itemtype": "property",
+            "name": "placement='bottom'",
+            "type": "Popper.placements",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3628,
+            "description": "Whether events (resize, scroll) are initially enabled",
+            "itemtype": "property",
+            "name": "eventsEnabled=true",
+            "type": "Boolean",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3634,
+            "description": "Set to true if you want to automatically remove the popper when\nyou call the `destroy` method.",
+            "itemtype": "property",
+            "name": "removeOnDestroy=false",
+            "type": "Boolean",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3641,
+            "description": "Callback called when the popper is created.<br />\nBy default, is set to no-op.<br />\nAccess Popper.js instance with `data.instance`.",
+            "itemtype": "property",
+            "name": "",
+            "type": "OnCreate",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3649,
+            "description": "Callback called when the popper is updated, this callback is not called\non the initialization/creation of the popper, but only on subsequent\nupdates.<br />\nBy default, is set to no-op.<br />\nAccess Popper.js instance with `data.instance`.",
+            "itemtype": "property",
+            "name": "",
+            "type": "OnUpdate",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3659,
+            "description": "List of modifiers used to modify the offsets before they are applied to the popper.\nThey provide most of the functionalities of Popper.js",
+            "itemtype": "property",
+            "name": "",
+            "type": "Modifiers",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3667,
+            "callback": "onCreate",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "DataObject"
+                }
+            ],
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3672,
+            "callback": "onUpdate",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "DataObject"
+                }
+            ],
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3779,
+            "description": "Schedule an update, it will run on the next UI update available",
+            "itemtype": "method",
+            "name": "scheduleUpdate",
+            "memberof": "Popper",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3786,
+            "description": "Collection of utilities useful when writing custom modifiers.\nStarting from version 1.7, this method is available only if you\ninclude `popper-utils.js` before `popper.js`.\n\n**DEPRECATION**: This way to access PopperUtils is deprecated\nand will be removed in v2! Use the PopperUtils module directly instead.\nDue to the high instability of the methods contained in Utils, we can't\nguarantee them to follow semver. Use them at your own risk!",
+            "static": 1,
+            "access": "private",
+            "tagname": "",
+            "type": "{Object}",
+            "deprecated": true,
+            "deprecationMessage": "since version 1.8",
+            "itemtype": "method",
+            "name": "Utils",
+            "memberof": "Popper",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3807,
+            "description": "The `referenceObject` is an object that provides an interface compatible with Popper.js\nand lets you use it as replacement of a real DOM node.<br />\nYou can use this method to position a popper relatively to a set of coordinates\nin case you don't have a DOM node to use as reference.\n\n```\nnew Popper(referenceObject, popperNode);\n```\n\nNB: This feature isn't supported in Internet Explorer 10",
+            "name": "{number} data.clientHeight\nAn ES6 getter that will return the height of the virtual reference element.",
+            "itemtype": "property",
+            "type": "Function",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3832,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): dropdown.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3840,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3910,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 3962,
+            "description": "Check for Popper dependency\nPopper - https://popper.js.org",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4265,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4280,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4297,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): modal.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4305,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4359,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4818,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4856,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4873,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): tooltip.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4881,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4959,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 4971,
+            "description": "Check for Popper dependency\nPopper - https://popper.js.org",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 5520,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 5538,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): popover.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 5546,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 5586,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 5713,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 5731,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): scrollspy.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 5739,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 5784,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 6009,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 6025,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 6042,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): tab.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 6050,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 6084,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 6260,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 6272,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.bundle.js",
+            "line": 6289,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0-alpha.6): index.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.Popper",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 55,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): util.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 63,
+            "description": "------------------------------------------------------------------------\nPrivate TransitionEnd Helpers\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 129,
+            "description": "--------------------------------------------------------------------------\nPublic Util Api\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 195,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): alert.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 203,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 227,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 342,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 350,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 367,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): button.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 375,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 401,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 493,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 513,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 530,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): carousel.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 538,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 604,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 997,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1012,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1029,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): collapse.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1037,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1077,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1358,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1381,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1398,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): dropdown.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1406,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1476,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1528,
+            "description": "Check for Popper dependency\nPopper - https://popper.js.org",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1831,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1846,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1863,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): modal.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1871,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 1925,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 2384,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 2422,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 2439,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): tooltip.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 2447,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 2525,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 2537,
+            "description": "Check for Popper dependency\nPopper - https://popper.js.org",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3086,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3104,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): popover.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3112,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3152,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3279,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3297,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): scrollspy.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3305,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3350,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3575,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3591,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3608,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0): tab.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3616,
+            "description": "------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3650,
+            "description": "------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3826,
+            "description": "------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3838,
+            "description": "------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "bootstrap.js",
+            "line": 3855,
+            "description": "--------------------------------------------------------------------------\nBootstrap (v4.0.0-alpha.6): index.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 111,
+            "description": "Crea un div con la ID y la clase pertinente para realizar la subida de archivos y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionInputImagenZone",
+            "return": {
+                "description": "Devuelve un div para hacer la subida de un archivo",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 125,
+            "description": "Crea un input para introducir la fecha de la noticia usando JQuery UI y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionInputFecha",
+            "return": {
+                "description": "Devuelve un input tipo date",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 139,
+            "description": "Crea un input para introducir el título de la noticia y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionInputTitulo",
+            "return": {
+                "description": "Devuelve un input tipo text",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 151,
+            "description": "Crea un input para introducir la categoría de la noticia usando JQuery UI y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionInputCategoria",
+            "return": {
+                "description": "Devuelve un input tipo text autocompletable",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 174,
+            "description": "Crea un input para comprobar si es importante la noticia usando JQuery UI y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionCheckboxNoticiaImportante",
+            "return": {
+                "description": "Devuelve un input tipo checkbox",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 187,
+            "description": "Crea un input para introducir la fecha actual y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionInputFechaActualHidden",
+            "return": {
+                "description": "Devuelve un input tipo date oculto",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 199,
+            "description": "Crea un div para crear una fila de Bootstrap",
+            "itemtype": "method",
+            "name": "creacionDivRow",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 212,
+            "description": "Crea un div con 6 columnas de Bootstrap y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionDivCol",
+            "return": {
+                "description": "Devuelve un div con 6 columnas de Bootstrap",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 225,
+            "description": "Crea un div con la clase panel-body de Bootstrap y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionDivPanelBody",
+            "return": {
+                "description": "Devuelve un div con la clase panel-body de Bootstrap",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 238,
+            "description": "Crea un div con el identificador adjuntarArchivo y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionDivAdjuntar",
+            "return": {
+                "description": "Devuelve un div con el identificador adjuntarArchivo",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 251,
+            "description": "Crea un div con la clase form-group de Bootstrap y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionDivClassFormGrup",
+            "return": {
+                "description": "Devuelve un div con la clase form-group de Bootstrap",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 264,
+            "description": "Crea un div para adjuntar archivos de Bootstrap y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionDivClassForm",
+            "return": {
+                "description": "Devuelve un div para adjuntar archivos de Bootstrap",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 277,
+            "description": "Crea un input tipo file y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionInputFile",
+            "return": {
+                "description": "Devuelve un input tipo file para obtener el archivo seleccionado por el usuario",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 289,
+            "description": "Crea un label para el input tipo file y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionLabelFile",
+            "return": {
+                "description": "Devuelve un label para el input tipo file",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 303,
+            "description": "Crea un label con el texto pasado como parámetro",
+            "itemtype": "method",
+            "name": "creacionLabel",
+            "params": [
+                {
+                    "name": "texto",
+                    "description": "Texto del label",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Devuelve un label con el texto indicado",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 317,
+            "description": "Crea un textArea y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionTextArea",
+            "return": {
+                "description": "Devuelve un input tipo textArea",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 329,
+            "description": "Crea un input tipo button y lo devuelve",
+            "itemtype": "method",
+            "name": "creacionInputEnviar",
+            "return": {
+                "description": "Devuelve un input tipo button",
+                "type": "Object"
+            },
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "crearNoticiaJS.js",
+            "line": 341,
+            "description": "Obtiene la fecha actual y la guarda en un input oculto",
+            "itemtype": "method",
+            "name": "obtenerFechaActual",
+            "class": "modifiers.crearNoticiaJS",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 887,
+            "description": "Create key-value caches of limited size",
+            "return": {
+                "description": "Returns the Object data after storing it on itself with\n\tproperty name the (space-suffixed) string and (if the cache is larger than Expr.cacheLength)\n\tdeleting the oldest entry",
+                "type": "Function(string, object)"
+            },
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 907,
+            "description": "Mark a function for special use by Sizzle",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "The function to mark",
+                    "type": "Function"
+                }
+            ],
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 916,
+            "description": "Support testing using an element",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "Passed the created element and returns a boolean result",
+                    "type": "Function"
+                }
+            ],
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 937,
+            "description": "Adds the same handler for all of the specified attrs",
+            "params": [
+                {
+                    "name": "attrs",
+                    "description": "Pipe-separated list of attributes",
+                    "type": "String"
+                },
+                {
+                    "name": "handler",
+                    "description": "The method that will be applied",
+                    "type": "Function"
+                }
+            ],
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 951,
+            "description": "Checks document order of two siblings",
+            "params": [
+                {
+                    "name": "a",
+                    "description": "",
+                    "type": "Element"
+                },
+                {
+                    "name": "b",
+                    "description": "",
+                    "type": "Element"
+                }
+            ],
+            "return": {
+                "description": "Returns less than 0 if a precedes b, greater than 0 if a follows b",
+                "type": "Number"
+            },
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 979,
+            "description": "Returns a function to use in pseudos for input types",
+            "params": [
+                {
+                    "name": "type",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 990,
+            "description": "Returns a function to use in pseudos for buttons",
+            "params": [
+                {
+                    "name": "type",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 1001,
+            "description": "Returns a function to use in pseudos for :enabled/:disabled",
+            "params": [
+                {
+                    "name": "disabled",
+                    "description": "true for :disabled; false for :enabled",
+                    "type": "Boolean"
+                }
+            ],
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 1057,
+            "description": "Returns a function to use in pseudos for positionals",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 1079,
+            "description": "Checks a node for validity as a Sizzle context",
+            "params": [
+                {
+                    "name": "context",
+                    "description": "",
+                    "type": "Element|Object="
+                }
+            ],
+            "return": {
+                "description": "The input node if acceptable, otherwise a falsy value",
+                "type": "Element|Object|Boolean"
+            },
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 1091,
+            "description": "Detects XML nodes",
+            "params": [
+                {
+                    "name": "elem",
+                    "description": "An element or a document",
+                    "type": "Element|Object"
+                }
+            ],
+            "return": {
+                "description": "True iff elem is a non-HTML XML node",
+                "type": "Boolean"
+            },
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 1103,
+            "description": "Sets document-related variables once based on the current document",
+            "params": [
+                {
+                    "name": "doc",
+                    "description": "An element or document object to use to set the document",
+                    "type": "Element|Object",
+                    "optional": true
+                }
+            ],
+            "return": {
+                "description": "Returns the current document",
+                "type": "Object"
+            },
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 1583,
+            "description": "Document sorting and removing duplicates",
+            "params": [
+                {
+                    "name": "results",
+                    "description": "",
+                    "type": "ArrayLike"
+                }
+            ],
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 1616,
+            "description": "Utility function for retrieving the text value of an array of DOM nodes",
+            "params": [
+                {
+                    "name": "elem",
+                    "description": "",
+                    "type": "Array|Element"
+                }
+            ],
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 2647,
+            "description": "A low-level selection function that works with Sizzle's compiled\n selector functions",
+            "params": [
+                {
+                    "name": "selector",
+                    "description": "A selector or a pre-compiled\n selector function built with Sizzle.compile",
+                    "type": "String|Function"
+                },
+                {
+                    "name": "context",
+                    "description": "",
+                    "type": "Element"
+                },
+                {
+                    "name": "results",
+                    "description": "",
+                    "type": "Array",
+                    "optional": true
+                },
+                {
+                    "name": "seed",
+                    "description": "A set of elements to match against",
+                    "type": "Array",
+                    "optional": true
+                }
+            ],
+            "class": "",
+            "namespace": "modifiers"
+        },
+        {
+            "file": "jquery-3.2.1.js",
+            "line": 9817,
+            "description": "Load a url into a page",
+            "class": "",
+            "namespace": "modifiers"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: fileoverview",
+            "line": " bootstrap.bundle.js:1397"
+        },
+        {
+            "message": "unknown tag: version",
+            "line": " bootstrap.bundle.js:1397"
+        },
+        {
+            "message": "unknown tag: license",
+            "line": " bootstrap.bundle.js:1397"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1460"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1460"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1460"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1471"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1471"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1471"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1483"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1483"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1483"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1499"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1499"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1499"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1513"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1513"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1513"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1548"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1548"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1548"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1586"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1586"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1586"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1601"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1601"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1601"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1601"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1645"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1645"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1645"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1645"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1707"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1707"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1794"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1794"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1794"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1808"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1928"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1928"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:1928"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1928"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:1947"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:1947"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2013"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2013"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2013"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2013"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2073"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2073"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2087"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2087"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2087"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2105"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2105"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2105"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2119"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2119"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2158"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2158"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2158"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2158"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2158"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2177"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2177"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2177"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2177"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2177"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2201"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2201"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2234"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2284"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2284"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2298"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2298"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2298"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2319"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2346"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2346"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2367"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2387"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2399"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2422"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2436"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2447"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2447"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2447"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2466"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2466"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2466"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:2485"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2485"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2485"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2485"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2485"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2485"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2485"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2513"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:2541"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2541"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2541"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2541"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2541"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2635"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2635"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:2663"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2663"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2663"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2663"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2663"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2745"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2745"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2745"
+        },
+        {
+            "message": "unknown tag: enum",
+            "line": " bootstrap.bundle.js:2761"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2761"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2797"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2797"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2797"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2797"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:2821"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2821"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2821"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2821"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2821"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:2911"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2911"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2911"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2911"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2911"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:2940"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2940"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2940"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2940"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2940"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2940"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2940"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:2993"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:2993"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2993"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2993"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2993"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:2993"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:2993"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:3071"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3071"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3071"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3071"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3071"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:3071"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:3114"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3114"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3114"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3114"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:3114"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:3165"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3165"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3165"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3165"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:3165"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:3198"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3198"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3198"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3198"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:3198"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:3236"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3236"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3236"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3236"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:3236"
+        },
+        {
+            "message": "replacing incorrect tag: function with method",
+            "line": " bootstrap.bundle.js:3262"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3262"
+        },
+        {
+            "message": "unknown tag: argument",
+            "line": " bootstrap.bundle.js:3262"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " bootstrap.bundle.js:3262"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3284"
+        },
+        {
+            "message": "unknown tag: inner",
+            "line": " bootstrap.bundle.js:3284"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3301"
+        },
+        {
+            "message": "unknown tag: inner",
+            "line": " bootstrap.bundle.js:3301"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3352"
+        },
+        {
+            "message": "unknown tag: inner",
+            "line": " bootstrap.bundle.js:3352"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3376"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3382"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3389"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3397"
+        },
+        {
+            "message": "unknown tag: inner",
+            "line": " bootstrap.bundle.js:3397"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3415"
+        },
+        {
+            "message": "unknown tag: inner",
+            "line": " bootstrap.bundle.js:3415"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3436"
+        },
+        {
+            "message": "unknown tag: inner",
+            "line": " bootstrap.bundle.js:3436"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3454"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3461"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3466"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3475"
+        },
+        {
+            "message": "unknown tag: inner",
+            "line": " bootstrap.bundle.js:3475"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3491"
+        },
+        {
+            "message": "unknown tag: inner",
+            "line": " bootstrap.bundle.js:3491"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3510"
+        },
+        {
+            "message": "unknown tag: inner",
+            "line": " bootstrap.bundle.js:3510"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3532"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3538"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3544"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3552"
+        },
+        {
+            "message": "unknown tag: inner",
+            "line": " bootstrap.bundle.js:3552"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3576"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " bootstrap.bundle.js:3586"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3605"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3622"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3628"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3634"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3641"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3649"
+        },
+        {
+            "message": "replacing incorrect tag: prop with property",
+            "line": " bootstrap.bundle.js:3659"
+        },
+        {
+            "message": "unknown tag: callback",
+            "line": " bootstrap.bundle.js:3667"
+        },
+        {
+            "message": "unknown tag: callback",
+            "line": " bootstrap.bundle.js:3672"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3779"
+        },
+        {
+            "message": "replacing incorrect tag: member with method",
+            "line": " bootstrap.bundle.js:3786"
+        },
+        {
+            "message": "unknown tag: memberof",
+            "line": " bootstrap.bundle.js:3786"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " bootstrap.bundle.js:3807"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " jquery-3.2.1.js:887"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " jquery-3.2.1.js:951"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " jquery-3.2.1.js:1079"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " jquery-3.2.1.js:1091"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " jquery-3.2.1.js:1103"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): util.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:54"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nPrivate TransitionEnd Helpers\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:62"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nPublic Util Api\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:128"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): alert.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:194"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:202"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:226"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:341"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:349"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): button.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:366"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:374"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:400"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:492"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:512"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): carousel.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:529"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:537"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:603"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:996"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:1011"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): collapse.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:1028"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:1036"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:1076"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:1357"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:1380"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:1397"
+        },
+        {
+            "message": "Missing item type\nGet the window associated with the element",
+            "line": " bootstrap.bundle.js:2346"
+        },
+        {
+            "message": "Missing item type\nModifiers are plugins used to alter the behavior of your poppers.<br />\nPopper.js uses a set of 9 modifiers to provide all the basic functionalities\nneeded by the library.\n\nUsually you don't want to override the `order`, `fn` and `onLoad` props.\nAll the other properties are configurations that could be tweaked.",
+            "line": " bootstrap.bundle.js:3274"
+        },
+        {
+            "message": "Missing item type\nModifier used to shift the popper on the start or end of its reference\nelement.<br />\nIt will read the variation of the `placement` property.<br />\nIt can be one either `-end` or `-start`.",
+            "line": " bootstrap.bundle.js:3284"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3293"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3295"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3297"
+        },
+        {
+            "message": "Missing item type\nThe `offset` modifier can shift your popper on both its axis.\n\nIt accepts the following units:\n- `px` or unitless, interpreted as pixels\n- `%` or `%r`, percentage relative to the length of the reference element\n- `%p`, percentage relative to the length of the popper element\n- `vw`, CSS viewport width unit\n- `vh`, CSS viewport height unit\n\nFor length is intended the main axis relative to the placement of the popper.<br />\nThis means that if the placement is `top` or `bottom`, the length will be the\n`width`. In case of `left` or `right`, it will be the height.\n\nYou can provide a single value (as `Number` or `String`), or a pair of values\nas `String` divided by a comma or one (or more) white spaces.<br />\nThe latter is a deprecated method because it leads to confusion and will be\nremoved in v2.<br />\nAdditionally, it accepts additions and subtractions between different units.\nNote that multiplications and divisions aren't supported.\n\nValid examples are:\n```\n10\n'10%'\n'10, 10'\n'10%, 10'\n'10 + 10%'\n'10 - 5vh + 3%'\n'-10px + 5vh, 5px - 6%'\n```\n> **NB**: If you desire to apply offsets to your poppers in a way that may make them overlap\n> with their reference element, unfortunately, you will have to disable the `flip` modifier.\n> More on this [reading this issue](https://github.com/FezVrasta/popper.js/issues/373)",
+            "line": " bootstrap.bundle.js:3301"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3340"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3342"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3344"
+        },
+        {
+            "message": "Missing item type\nThe offset value as described in the modifier description",
+            "line": " bootstrap.bundle.js:3346"
+        },
+        {
+            "message": "Missing item type\nModifier used to prevent the popper from being positioned outside the boundary.\n\nAn scenario exists where the reference itself is not within the boundaries.<br />\nWe can say it has \"escaped the boundaries\" — or just \"escaped\".<br />\nIn this case we need to decide whether the popper should either:\n\n- detach from the reference and remain \"trapped\" in the boundaries, or\n- if it should ignore the boundary and \"escape with its reference\"\n\nWhen `escapeWithReference` is set to`true` and reference is completely\noutside its boundaries, the popper will overflow (or completely leave)\nthe boundaries in order to remain attached to the edge of the reference.",
+            "line": " bootstrap.bundle.js:3352"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3370"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3372"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3374"
+        },
+        {
+            "message": "Missing item type\nModifier used to make sure the reference and its popper stay near eachothers\nwithout leaving any gap between the two. Expecially useful when the arrow is\nenabled and you want to assure it to point to its reference element.\nIt cares only about the first axis, you can still have poppers with margin\nbetween the popper and its reference element.",
+            "line": " bootstrap.bundle.js:3397"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3407"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3409"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3411"
+        },
+        {
+            "message": "Missing item type\nThis modifier is used to move the `arrowElement` of the popper to make\nsure it is positioned between the reference element and its popper element.\nIt will read the outer size of the `arrowElement` node to detect how many\npixels of conjuction are needed.\n\nIt has no effect if no `arrowElement` is provided.",
+            "line": " bootstrap.bundle.js:3415"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3426"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3428"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3430"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3432"
+        },
+        {
+            "message": "Missing item type\nModifier used to flip the popper's placement when it starts to overlap its\nreference element.\n\nRequires the `preventOverflow` modifier before it in order to work.\n\n**NOTE:** this modifier will interrupt the current update cycle and will\nrestart it if it detects the need to flip the placement.",
+            "line": " bootstrap.bundle.js:3436"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3448"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3450"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3452"
+        },
+        {
+            "message": "Missing item type\nModifier used to make the popper flow toward the inner of the reference element.\nBy default, when this modifier is disabled, the popper will be placed outside\nthe reference element.",
+            "line": " bootstrap.bundle.js:3475"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3483"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3485"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3487"
+        },
+        {
+            "message": "Missing item type\nModifier used to hide the popper when its reference element is outside of the\npopper boundaries. It will set a `x-out-of-boundaries` attribute which can\nbe used to hide with a CSS selector the popper when its reference is\nout of boundaries.\n\nRequires the `preventOverflow` modifier before it in order to work.",
+            "line": " bootstrap.bundle.js:3491"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3502"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3504"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3506"
+        },
+        {
+            "message": "Missing item type\nComputes the style that will be applied to the popper element to gets\nproperly positioned.\n\nNote that this modifier will not touch the DOM, it just prepares the styles\nso that `applyStyle` modifier can apply it. This separation is useful\nin case you need to replace `applyStyle` with a custom implementation.\n\nThis modifier has `850` as `order` value to maintain backward compatibility\nwith previous versions of Popper.js. Expect the modifiers ordering method\nto change in future major versions of the library.",
+            "line": " bootstrap.bundle.js:3510"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3526"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3528"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3530"
+        },
+        {
+            "message": "Missing item type\nApplies the computed styles to the popper element.\n\nAll the DOM manipulations are limited to this modifier. This is useful in case\nyou want to integrate Popper.js inside a framework or view library and you\nwant to delegate all the DOM manipulations to it.\n\nNote that if you disable this modifier, you must make sure the popper element\nhas its position set to `absolute` before Popper.js can do its work!\n\nJust disable this modifier and define you own to achieve the desired effect.",
+            "line": " bootstrap.bundle.js:3552"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3568"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3570"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3572"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3574"
+        },
+        {
+            "message": "Missing item type\nDefault options provided to Popper.js constructor.<br />\nThese can be overriden using the `options` argument of Popper.js.<br />\nTo override an option, simply pass as 3rd argument an object with the same\nstructure of this object, example:\n```\nnew Popper(ref, pop, {\n  modifiers: {\n    preventOverflow: { enabled: false }\n  }\n})\n```",
+            "line": " bootstrap.bundle.js:3605"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3667"
+        },
+        {
+            "message": "Missing item type",
+            "line": " bootstrap.bundle.js:3672"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): dropdown.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:3832"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:3840"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:3910"
+        },
+        {
+            "message": "Missing item type\nCheck for Popper dependency\nPopper - https://popper.js.org",
+            "line": " bootstrap.bundle.js:3962"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:4265"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:4280"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): modal.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:4297"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:4305"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:4359"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:4818"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:4856"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): tooltip.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:4873"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:4881"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:4959"
+        },
+        {
+            "message": "Missing item type\nCheck for Popper dependency\nPopper - https://popper.js.org",
+            "line": " bootstrap.bundle.js:4971"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:5520"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): popover.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:5538"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:5546"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:5586"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:5713"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): scrollspy.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:5731"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:5739"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:5784"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:6009"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:6025"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): tab.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:6042"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:6050"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:6084"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:6260"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:6272"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0-alpha.6): index.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.bundle.js:6289"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): util.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:55"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nPrivate TransitionEnd Helpers\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:63"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nPublic Util Api\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:129"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): alert.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:195"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:203"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:227"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:342"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:350"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): button.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:367"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:375"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:401"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:493"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:513"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): carousel.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:530"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:538"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:604"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:997"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1012"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): collapse.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:1029"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1037"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1077"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1358"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1381"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): dropdown.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:1398"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1406"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1476"
+        },
+        {
+            "message": "Missing item type\nCheck for Popper dependency\nPopper - https://popper.js.org",
+            "line": " bootstrap.js:1528"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1831"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1846"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): modal.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:1863"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1871"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:1925"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:2384"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:2422"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): tooltip.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:2439"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:2447"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:2525"
+        },
+        {
+            "message": "Missing item type\nCheck for Popper dependency\nPopper - https://popper.js.org",
+            "line": " bootstrap.js:2537"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3086"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): popover.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:3104"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3112"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3152"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3279"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): scrollspy.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:3297"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3305"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3350"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3575"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3591"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0): tab.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:3608"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nConstants\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3616"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nClass Definition\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3650"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\nData Api implementation\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3826"
+        },
+        {
+            "message": "Missing item type\n------------------------------------------------------------------------\njQuery\n------------------------------------------------------------------------",
+            "line": " bootstrap.js:3838"
+        },
+        {
+            "message": "Missing item type\n--------------------------------------------------------------------------\nBootstrap (v4.0.0-alpha.6): index.js\nLicensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n--------------------------------------------------------------------------",
+            "line": " bootstrap.js:3855"
+        },
+        {
+            "message": "Missing item type\nCreate key-value caches of limited size",
+            "line": " jquery-3.2.1.js:887"
+        },
+        {
+            "message": "Missing item type\nMark a function for special use by Sizzle",
+            "line": " jquery-3.2.1.js:907"
+        },
+        {
+            "message": "Missing item type\nSupport testing using an element",
+            "line": " jquery-3.2.1.js:916"
+        },
+        {
+            "message": "Missing item type\nAdds the same handler for all of the specified attrs",
+            "line": " jquery-3.2.1.js:937"
+        },
+        {
+            "message": "Missing item type\nChecks document order of two siblings",
+            "line": " jquery-3.2.1.js:951"
+        },
+        {
+            "message": "Missing item type\nReturns a function to use in pseudos for input types",
+            "line": " jquery-3.2.1.js:979"
+        },
+        {
+            "message": "Missing item type\nReturns a function to use in pseudos for buttons",
+            "line": " jquery-3.2.1.js:990"
+        },
+        {
+            "message": "Missing item type\nReturns a function to use in pseudos for :enabled/:disabled",
+            "line": " jquery-3.2.1.js:1001"
+        },
+        {
+            "message": "Missing item type\nReturns a function to use in pseudos for positionals",
+            "line": " jquery-3.2.1.js:1057"
+        },
+        {
+            "message": "Missing item type\nChecks a node for validity as a Sizzle context",
+            "line": " jquery-3.2.1.js:1079"
+        },
+        {
+            "message": "Missing item type\nDetects XML nodes",
+            "line": " jquery-3.2.1.js:1091"
+        },
+        {
+            "message": "Missing item type\nSets document-related variables once based on the current document",
+            "line": " jquery-3.2.1.js:1103"
+        },
+        {
+            "message": "Missing item type\nDocument sorting and removing duplicates",
+            "line": " jquery-3.2.1.js:1583"
+        },
+        {
+            "message": "Missing item type\nUtility function for retrieving the text value of an array of DOM nodes",
+            "line": " jquery-3.2.1.js:1616"
+        },
+        {
+            "message": "Missing item type\nA low-level selection function that works with Sizzle's compiled\n selector functions",
+            "line": " jquery-3.2.1.js:2647"
+        },
+        {
+            "message": "Missing item type\nLoad a url into a page",
+            "line": " jquery-3.2.1.js:9817"
+        }
+    ]
+}

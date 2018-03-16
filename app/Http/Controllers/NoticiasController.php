@@ -36,6 +36,15 @@ class NoticiasController extends Controller
         return view('noticias.crear');
     }
 
+    public function obtenerCategorias() {
+        $noticias = Noticia::DISTINCT('categoria')->get();
+        $categorias = [];
+        foreach ($noticias as $noticia) {
+            array_push($categorias, $noticia["categoria"]);
+        }
+        return $categorias;
+    }
+
     public function store(Request $request)
     {
         $noticia = new Noticia;

@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet"  href="{{ asset('css/reset.css') }}">
       <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" >
-      
+      <link rel="stylesheet"  href="{{ asset('css/jquery-ui.min.css') }}">
       <link rel="stylesheet"  href="{{ asset('css/generic.css') }}">
       
        <!-- Optional JavaScript -->
@@ -16,6 +16,7 @@
         <script src="{{ asset('js/jquery-3.2.1.js') }}"></script>
         <script src="{{ asset('js/popper.min.js') }}"></script>
         <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('js/jquery-ui.min.js') }}"></script>
 
       <title>Ayuntamiento de Cornellá</title>
 

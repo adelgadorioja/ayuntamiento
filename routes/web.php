@@ -54,6 +54,8 @@ Route::name('crearNoticias')->match(array('POST'),'noticias/crear', 'NoticiasCon
 
 Route::name('mostrarNoticiaPorCategoria')->match(array('GET'),'noticias/categoria/{idCategoria}', 'NoticiasController@mostrarNoticiaPorCategoria');
 
+Route::name('obtenerCategorias')->match(array('GET'),'noticias/categorias', 'NoticiasController@obtenerCategorias');
+
 
 
 
